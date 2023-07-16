@@ -96,3 +96,9 @@ p.user-bio {
   font-weight: 400;
   letter-spacing: 0.242px;
 }
+.owl-item.active {
+  transform: scale(0.8)!important;
+}
+.owl-item.active.center {
+  transform: scale(1.1) !important;
+}
