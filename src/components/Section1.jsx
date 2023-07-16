@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Section1() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid mt-5 mt-sm-3'>
         <div className='row'>
             <div className='section1 text-center'>
                 <img src='https://imgur.com/o6XLzQn.png' className='img-fluid'/>

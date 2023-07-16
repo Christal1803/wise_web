@@ -12,7 +12,7 @@ import usePreventBodyScroll from '../components/UsePreventBodyScroll'
 export default function Home() {
   const { disableScroll, enableScroll } = usePreventBodyScroll();
   return (
-    <div className='px-lg-4'>
+    <div className='px-lg-5 px-md-3'>
         <Nav/>
         <Banner/>
         <Section1/>
