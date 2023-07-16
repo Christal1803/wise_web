@@ -124,12 +124,32 @@ background: #FFF;
   background-size: cover;
 }
 
+.copy-right {
+  color: #415F7B;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 510;
+line-height: normal;
+}
+
+img.conatctimg.img-fluid {
+  height: 100vh;
+}
 
 
 
-
-
-
+label.form-label {
+  color: #1B163A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}
+button.btn.btn-primary.w-100 {
+  background: var(--red, #CB3D00);
+  border: none;
+}
 
 
 
