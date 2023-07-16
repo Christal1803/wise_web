@@ -66,4 +66,33 @@
   .slick-center { 
     transform: scale(2) 
   }
-  
+  .item.row {
+    padding: 2rem;
+}
+.owl-img {
+  border-radius: 335px;
+  border: 1px solid var(--red, #CB3D00);
+  padding: 3px;
+}
+p.user-name {
+  color: #1B163A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p.user-role {
+  color: var(--red, #CB3D00);
+  font-size: 16.274px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.303px;
+}
+p.user-bio {
+  color: #96949E;
+  font-size: 13.219px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.242px;
+}
