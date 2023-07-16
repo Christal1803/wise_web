@@ -9,10 +9,15 @@ export default function Section5() {
             Join our private beta program for exclusive access
           </p>
 
-          <div class="buttonIn">
+          {/* <div class="buttonIn">
             <input type="text" id="enter" placeholder="Enter your email" />
             <button className="btn btn-primary">Subscribe</button>
-          </div>
+          </div> */}
+          <div class="search">
+        <input placeholder="Enter Email Address" type="text"/>
+        <button type="submit">Subscribe</button>
+      </div>
+
         </div>
       </div>
 
