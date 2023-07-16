@@ -1,5 +1,6 @@
 body {
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+background: url('https://imgur.com/R6mcdvW.png'), lightgray 0% 0% / 100px 100px repeat, url('https://imgur.com/R6mcdvW.png'), lightgray 0% 0% / 100px 100px repeat;
 }
 a.nav-link {
   color: #415F7B;
@@ -7,4 +8,156 @@ font-size: 14px;
 font-style: normal;
 font-weight: 510;
 line-height: normal;
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 15px !important;
+}
+}
+
+h1.banner1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+}
+p.banner2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+button.bannerbtn.btn {
+  padding: 14.048px 28.095px;
+  justify-content: center;
+  align-items: center;
+  gap: 14.048px;
+  border-radius: 140.476px;
+  background: var(--red, #CB3D00);
+  color: #FFF;
+  font-size: 19.667px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: 30.905px;
+}
+
+.section1-head {
+  color: #1B163A;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+}
+.section1-text {
+  color: #5A556C;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
+.card-text1 {
+  color: #1B163A;
+font-size: 18px;
+font-style: normal;
+font-weight: 590;
+line-height: normal;
+}
+.card-text2 {
+  color: #96949E;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.16px;
+}
+.card.text-center {
+  margin: 2rem;
+}
+.row.m-3.main {
+  border-radius: 12px;
+background: #09081C;
+padding: 60px;
+}
+.main-text1 {
+  color: var(--orange-gradient, #F6931F);
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.main-text2 {
+  color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+}
+.main-text3 {
+  color: #868686;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+
+.img-outerline {
+  padding: 3px;
+  border-radius: 29px;
+border: 3px solid rgba(255, 255, 255, 0.75);
+}
+.img-outerline > img {
+  padding: 49px 33px;
+  border-radius: 24px;
+border: 1px solid rgba(255, 255, 255, 0.08);
+background: #FFF;
+}
+
+.spl {
+  color: var(--orange-gradient, #F6931F);
+}
+
+.footermain {
+  border-radius: 12px;
+  background: url('https://imgur.com/HQTzrfU.png'), lightgray -175.856px -212.188px / 123.669% 438.845% no-repeat;
+  padding: 60px;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.point-dot {
+  float: right;
+  position: absolute;
+  right: -11px;
+}
+
+.card-content-list {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  list-style-image: url('https://imgur.com/eLlFBEo.png');
 }

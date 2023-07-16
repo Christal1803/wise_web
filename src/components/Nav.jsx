@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Nav() {
   return (
-    <div className='container-fluid'>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+       <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
         <img src='https://imgur.com/U61yxOl.png' className='img-fluid'/>
@@ -36,6 +36,6 @@ export default function Nav() {
     </div>
   </div>
 </nav>
-    </div>
+
   )
 }
