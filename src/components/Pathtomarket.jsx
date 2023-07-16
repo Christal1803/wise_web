@@ -78,7 +78,7 @@ export default function Pathtomarket() {
                         <div key={1}>
                             <div className='card-container'>
                                 <div className="col-sm-12 col-md-12 col-lg-12">
-                                    <div class="card">
+                                    <div class="card slidercard">
                                         <div className="carosel-card p-3">
                                             <div className="carosel-card-head">
                                                 <span className=""><b>Q1 2024</b></span>
@@ -104,10 +104,12 @@ export default function Pathtomarket() {
                         <div key={2}>
                             <div className='card-container'>
                                 <div className="col-sm-12 col-md-12 col-lg-12">
-                                    <div class="card">
+                                    <div class="card slidercard">
                                         <div className="carosel-card p-3">
                                             <div className="carosel-card-head">
                                                 <span className=""><b>Q2 2024</b></span>
+                                                <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                                 <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                             </div>
 
@@ -130,10 +132,12 @@ export default function Pathtomarket() {
                             <div className='card-container'>
                                 <div className="col-sm-12 col-md-12 col-lg-12">
 
-                                    <div class="card">
+                                    <div class="card slidercard">
                                         <div className="carosel-card p-3">
                                             <div className="carosel-card-head">
                                                 <span className=""><b>Q3 2024</b></span>
+                                                <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                                 <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                             </div>
 
@@ -155,10 +159,12 @@ export default function Pathtomarket() {
                         </div>
                         <div key={4}>
                             <div className='card-container'>
-                                <div class="card">
+                                <div class="card slidercard">
                                     <div className="carosel-card p-3">
                                         <div className="carosel-card-head">
                                             <span className=""><b>Q4 2024</b></span>
+                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                             <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                         </div>
 
@@ -179,11 +185,13 @@ export default function Pathtomarket() {
                         </div>
                         <div key={5}>
                             <div className='card-container'>
-                                <div class="card">
+                                <div class="card slidercard">
                                     <div className="carosel-card p-3">
                                         <div className="carosel-card-head">
                                             <span className=""><b>Q1 2025</b></span>
-                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
+                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
+                                           <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                         </div>
 
                                         <div className="carosel-card-coontent">
@@ -201,10 +209,12 @@ export default function Pathtomarket() {
                         </div>
                         <div key={6}>
                             <div className='card-container'>
-                                <div class="card">
+                                <div class="card slidercard">
                                     <div className="carosel-card p-3">
                                         <div className="carosel-card-head">
                                             <span className=""><b>Q2 2025</b></span>
+                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                             <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                         </div>
 
@@ -224,10 +234,12 @@ export default function Pathtomarket() {
                         </div>
                         <div key={7}>
                             <div className='card-container'>
-                                <div class="card">
+                                <div class="card slidercard">
                                     <div className="carosel-card p-3">
                                         <div className="carosel-card-head">
                                             <span className=""><b>Q3 2025</b></span>
+                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                             <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
                                         </div>
 
@@ -248,11 +260,12 @@ export default function Pathtomarket() {
                         </div>
                         <div key={8}>
                             <div className='card-container'>
-                                <div class="card">
+                                <div class="card slidercard">
                                     <div className="carosel-card p-3">
                                         <div className="carosel-card-head">
                                             <span className=""><b>Q4 2025</b></span>
-                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid point-dot" />
+                                            <img src="https://imgur.com/Umt6QrS.png" className="img-fluid dot-1" />
+
                                         </div>
 
                                         <div className="carosel-card-coontent">

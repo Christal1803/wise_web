@@ -4,7 +4,7 @@ export default function Section5() {
   return (
     <div className="containter-fluid">
       <div className="row m-3 footermain">
-        <div className="col-6 ">
+        <div className="col-sm-12 col-md-6 col-lg-6 ">
           <p className="main-text2">
             Join our private beta program for exclusive access
           </p>
@@ -18,13 +18,13 @@ export default function Section5() {
 
       <div className="row m-3">
      
-    <div className="col-12">
+    <div className="col-12 ">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
-    <span class="col-md-4 "><img src='https://imgur.com/U61yxOl.png' className='img-fluid'/></span>
+    <span class="col-md-4 col-sm-12 "><img src='https://imgur.com/U61yxOl.png' className='img-fluid'/></span>
 
     
 
-<span className="col-md-4">
+<span className="col-md-4 col-sm-12">
 <ul class="nav  justify-content-end">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Doc</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Invest</a></li>
@@ -36,7 +36,7 @@ export default function Section5() {
 
 
 
-    <span class="col-md-4 ">
+    <span class="col-md-4 col-sm-12">
     <ul class="nav col-md-4 float-end justify-content-end">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
         <img src="https://imgur.com/qgkrMm0.png" className="img-fluid"/></a></li>
