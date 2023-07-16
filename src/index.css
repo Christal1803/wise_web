@@ -171,9 +171,7 @@ button.btn.btn-primary.w-100 {
       line-height: 63px;
       letter-spacing: 0em;
   }
-  .banner-img {
-    display: none;
-  }
+ 
   .mt-sm-3 {
     margin-top: 0.5rem !important;
 }
@@ -201,7 +199,7 @@ button.btn.btn-primary.w-100 {
   font-weight: 700;
   line-height: 120%;
 }
-.col-sm-12.col-md-12.col-lg-6.mt-5.my-auto.p-5.p-sm-3 {
+.col-sm-12.col-md-12.col-lg-6.mt-5.my-auto.p-5.p-s-3 {
   padding: 1rem !important;
 }
 
@@ -237,9 +235,50 @@ button.btn.btn-primary.w-100 {
   padding: 2rem;
 }
 .footermain > p.main-text2 {
-  
+
 }
 
+}
+
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+      .card.text-center {
+         margin: 0rem; 
+    }
+    .card-inner.p-5 {
+      padding: 1rem;
+    }
+
+    .or1 {
+      order: 1;
+    }
+    .or2 {
+      order: 2;
+    }
+    .or3 {
+      order: 3;
+    }
+    .or4 {
+      order: 4;
+    }
+    .or5 {
+      order: 5;
+    }
+    .or6 {
+      order: 6;
+    }
+    .or7 {
+      order: 7;
+    }
+    .or8 {
+      order: 8;
+    }
+    .scroll-container {
+       padding: 0px !important;
+  }
+  .row.m-3.footermain {
+    background-size: 100% 100%;
+}
 }
  
 

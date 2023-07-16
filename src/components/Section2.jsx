@@ -173,7 +173,7 @@ export default function () {
             <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or2">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or2">
           <p className="card-text1 text-white">Conceptualize With</p>
           <p className="main-text2 spl">Campaign Wizard</p>
           <p className="main-text3">
@@ -187,7 +187,7 @@ export default function () {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or4">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or4">
           <p className="card-text1 text-white">Create & Launch With</p>
           <p className="main-text2 spl">Wordsmith</p>
           <p className="main-text3">
@@ -210,7 +210,7 @@ export default function () {
             <img src="https://imgur.com/kE5dIwY.png" className="img-fluid" />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or6">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or6">
           <p className="card-text1 text-white">Amplify & Reach With</p>
           <p className="main-text2 spl">InfluencerHub, Ad Launcher & Press Pulse Tools</p>
           <p className="main-text3">
@@ -223,7 +223,7 @@ export default function () {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or8">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or8">
           <p className="card-text1 text-white">Evaluate & Optimize With</p>
           <p className="main-text2 spl">Insights Tool</p>
           <p className="main-text3">
