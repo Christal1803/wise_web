@@ -62,6 +62,7 @@
     height: 2px;
     position: relative;
     top: 84px;
+    margin: 0px 30px;
   }
   .slick-center { 
     transform: scale(2) 
@@ -164,5 +165,9 @@ background: #2E3136;
   border: none;
 }
 
-
+.active-card{
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.70);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
 

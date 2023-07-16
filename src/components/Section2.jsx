@@ -1,12 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function () {
+  const [activeDiv, setActiveDiv] = useState(0);
+  const handleProgressClick = (divNumber) => {
+    debugger;
+    setActiveDiv(divNumber);
+  };
   return (
     <div className="container-fluid mt-sm-3">
       <div className="row">
-        <div className="col-sm-12 col-md-4 col-lg-4">
+        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(1)}  >
           <div class="card text-center border-0">
-            <div className="card-inner p-5">
+            <div className="card-inner p-5" style={{
+                             boxShadow: activeDiv === 1 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" :" none",borderRadius: activeDiv === 1 ? "24px": "0px"
+                            }}>
               <svg
                 className="img-fluid mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,9 +58,11 @@ export default function () {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4">
+        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(2)}>
           <div class="card text-center border-0">
-            <div className="card-inner p-5">
+            <div className="card-inner p-5" style={{
+                             boxShadow: activeDiv === 2 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" : "none",borderRadius: activeDiv === 2 ? "24px": "0px"
+                            }}>
               <svg
                 className="img-fluid mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +101,11 @@ export default function () {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4">
+        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(3)}>
           <div class="card text-center border-0">
-            <div className="card-inner p-5">
+            <div className="card-inner p-5" style={{
+                             boxShadow: activeDiv === 3 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" : "none",borderRadius: activeDiv === 3 ? "24px": "0px"
+                            }}>
               <svg
                 className="mx-auto img-fluid"
                 xmlns="http://www.w3.org/2000/svg"
