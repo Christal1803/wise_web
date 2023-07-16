@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Nav'
+import Pathtomarket from '../components/Pathtomarket'
 import Banner from '../components/Banner'
 import Section1 from '../components/Section1'
 import Section2 from '../components/Section2'
@@ -11,10 +12,12 @@ export default function Home() {
   return (
     <div className='px-lg-4'>
         <Nav/>
+        
         <Banner/>
         <Section1/>
         <Section2/>
         <Section3/>
+        <Pathtomarket/>
         <Section4/>
         <Section5/>
     </div>
