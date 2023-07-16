@@ -16,26 +16,26 @@ line-height: normal;
 }
 
 h1.banner1 {
-  font-size: 52px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 63px;
   letter-spacing: 0em;
 }
 p.banner2 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 31px;
   letter-spacing: 0em;
 }
 button.bannerbtn.btn {
-  padding: 14.048px 28.095px;
+  padding: 7.048px 28.095px;
   justify-content: center;
   align-items: center;
   gap: 14.048px;
   border-radius: 140.476px;
   background: var(--red, #CB3D00);
   color: #FFF;
-  font-size: 19.667px;
+  font-size: 14.667px;
   font-style: normal;
   font-weight: 590;
   line-height: 30.905px;
@@ -43,14 +43,14 @@ button.bannerbtn.btn {
 
 .section1-head {
   color: #1B163A;
-font-size: 32px;
+font-size: 26px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%; 
 }
 .section1-text {
   color: #5A556C;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%;
@@ -81,21 +81,21 @@ padding: 60px;
 }
 .main-text1 {
   color: var(--orange-gradient, #F6931F);
-font-size: 32px;
+font-size: 26px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%;
 }
 .main-text2 {
   color: #FFF;
-font-size: 32px;
+font-size: 26px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 38.4px */
 }
 .main-text3 {
   color: #868686;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 25.2px */
