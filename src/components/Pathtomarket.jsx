@@ -8,60 +8,7 @@ export default function Pathtomarket() {
     const [scrollProgress2, setScrollProgress2] = useState(10);
     const [slideToShow, setSlideToShow] = useState(3);
     const { disableScroll, enableScroll } = usePreventBodyScroll();
-    const [width, setWidth] = useState(0);
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 850);
-    const [progress, setProgress] = useState(0);
-    const articleRef = useRef();
-    console.log("articleRef:", articleRef)
-    useLayoutEffect(() => {
-
-        function handleResize() {
-            setIsMobile(window.innerWidth < 768)
-        }
-        const updateWidth = () => {
-            console.log("Entered into updateWidth")
-            if (articleRef.current) {
-                const { width } = articleRef.current.getBoundingClientRect();
-                setWidth(width);
-                console.log("Width", width)
-                // const progress = window.scrollX / (width - window.innerWidth);
-                const progress = window.scrollX / Math.max(1, width - window.innerWidth);
-                console.log("Progress", progress)
-                setProgress(progress);
-            }
-        };
-
-
-        // updateHeight();
-        // updateWidth()
-        window.addEventListener('load', function () {
-            const progress = window.scrollX / Math.max(1, width - window.innerWidth);
-            console.log("Progress inside", progress);
-        });
-        window.addEventListener("resize", handleResize);
-        window.addEventListener("scroll", function () {
-            window.scrollBy(100, 0); // Move the window horizontally by 100 pixels
-            updateWidth(); // Call the updateHeight() function
-        });
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-            window.removeEventListener("scroll", function () {
-                window.scrollBy(100, 0); // Move the window horizontally by 100 pixels
-                updateWidth(); // Call the updateHeight() function
-            });
-
-        }
-    }, []);
-    const position = Math.max(1 - progress, 0);
-    console.log("Position", position)
-    const complete = position === 0;
-    const notMoved = position === 1;
-
-    const DIAMETER = 50;
-    const STROKE_WIDTH = 6;
-    const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
-    const CIRCUMFERENCE = Math.PI * RADIUS * 2;
+   
 
 
     const handleScroll2 = (e) => {
