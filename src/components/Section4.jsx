@@ -17,7 +17,23 @@ export default function Section4() {
 
             <div className='col-12 mt-5'>
                 {/* slider */}
-                <OwlCarousel className='owl-theme' items={3} autoplay={true} center={true} dots={true} loop={true}>
+                <OwlCarousel className='owl-theme' items={3} autoplay={true} center={true} dots={true} loop={true}  responsive={{
+  0: {
+    items: 1 // Number of items to display on screens smaller than 576px
+  },
+  576: {
+    items: 2 // Number of items to display on screens equal to or larger than 576px
+  },
+  768: {
+    items: 3 // Number of items to display on screens equal to or larger than 768px
+  },
+  992: {
+    items: 4 // Number of items to display on screens equal to or larger than 992px
+  },
+  1200: {
+    items: 3 // Number of items to display on screens equal to or larger than 1200px
+  }
+}}>
    
    
 

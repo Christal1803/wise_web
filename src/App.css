@@ -151,3 +151,18 @@ background: #2E3136;
   .blend-mode{
     background-color: #fff;
   }
+.dot-1 {
+  position: relative;
+  left: -92px;
+  top: 22px;
+  display: inline !important;
+}
+.card.slidercard {
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+
+

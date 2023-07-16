@@ -2,10 +2,10 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mt-sm-3">
       <div className="row">
         <div className="col-sm-12 col-md-4 col-lg-4">
-          <div class="card text-center">
+          <div class="card text-center border-0">
             <div className="card-inner p-5">
               <svg
                 className="img-fluid mx-auto"
@@ -52,7 +52,7 @@ export default function () {
         </div>
 
         <div className="col-sm-12 col-md-4 col-lg-4">
-          <div class="card text-center">
+          <div class="card text-center border-0">
             <div className="card-inner p-5">
               <svg
                 className="img-fluid mx-auto"
@@ -93,7 +93,7 @@ export default function () {
         </div>
 
         <div className="col-sm-12 col-md-4 col-lg-4">
-          <div class="card text-center">
+          <div class="card text-center border-0">
             <div className="card-inner p-5">
               <svg
                 className="mx-auto img-fluid"
@@ -157,12 +157,12 @@ export default function () {
           <p className="main-text3">Marketing made easy </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or1">
           <div className="img-outerline">
             <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or2">
           <p className="card-text1 text-white">Conceptualize With</p>
           <p className="main-text2 spl">Campaign Wizard</p>
           <p className="main-text3">
@@ -176,7 +176,7 @@ export default function () {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or4">
           <p className="card-text1 text-white">Create & Launch With</p>
           <p className="main-text2 spl">Wordsmith</p>
           <p className="main-text3">
@@ -188,18 +188,18 @@ export default function () {
             </ul>{" "}
           </p>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or3">
           <div className="img-outerline">
-            <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
+            <img src="https://imgur.com/32bIYCu.png" className="img-fluid" />
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or5">
           <div className="img-outerline">
-            <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
+            <img src="https://imgur.com/kE5dIwY.png" className="img-fluid" />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or6">
           <p className="card-text1 text-white">Amplify & Reach With</p>
           <p className="main-text2 spl">InfluencerHub, Ad Launcher & Press Pulse Tools</p>
           <p className="main-text3">
@@ -212,7 +212,7 @@ export default function () {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-sm-3 or8">
           <p className="card-text1 text-white">Evaluate & Optimize With</p>
           <p className="main-text2 spl">Insights Tool</p>
           <p className="main-text3">
@@ -224,9 +224,9 @@ export default function () {
             </ul>{" "}
           </p>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or7">
           <div className="img-outerline">
-            <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
+            <img src="https://imgur.com/NMWdI3Y.png" className="img-fluid" />
           </div>
         </div>
       </div>
