@@ -8,7 +8,7 @@ export default function Pathtomarket() {
     const [scrollProgress2, setScrollProgress2] = useState(10);
     const [slideToShow, setSlideToShow] = useState(3);
     const { disableScroll, enableScroll } = usePreventBodyScroll();
-   
+
 
 
     const handleScroll2 = (e) => {
