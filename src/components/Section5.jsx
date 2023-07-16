@@ -14,7 +14,7 @@ export default function Section5() {
             <button className="btn btn-primary">Subscribe</button>
           </div> */}
           <div class="search">
-        <input placeholder="Enter Email Address" type="text"/>
+        <input placeholder="Email" type="text"/>
         <button type="submit">Subscribe</button>
       </div>
 
@@ -22,28 +22,25 @@ export default function Section5() {
       </div>
 
       <div className="row m-3">
-     
-    <div className="col-12 ">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2">
-    <span class="col-md-4 col-sm-12 "><img src='https://imgur.com/U61yxOl.png' className='img-fluid'/></span>
 
-    
+        <div className="col-sm-12 col-md-3 col-lg-3 mt-3">
+        <img src='https://imgur.com/U61yxOl.png' className='img-fluid'/>
+        </div>
 
-<span className="col-md-4 col-sm-12">
-<ul class="nav  justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Doc</a></li>
+        <div className="col-sm-12 col-md-6 col-lg-6 mt-3">
+            <ul className="nav">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Doc</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Invest</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Blog</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy Policy</a></li>
-    </ul>
-</span>
 
+            </ul>
+        </div>
 
-
-    <span class="col-md-4 col-sm-12">
-    <ul class="nav col-md-4 float-end justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
+        <div className="col-sm-12 col-md-3 col-lg-3 mt-3">
+        <ul className="nav">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
         <img src="https://imgur.com/qgkrMm0.png" className="img-fluid"/></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
       <img src="https://imgur.com/ZoyfRGU.png" className="img-fluid"/>
@@ -51,13 +48,15 @@ export default function Section5() {
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">
       <img src="https://imgur.com/WxdOxac.png" className="img-fluid"/>
       </a></li>
-    </ul>
-    </span>
-  </footer>
-    </div>
+            </ul>
+        </div>
+
+     
 
 
-    <div className="col-12 copy-right text-center">
+
+
+    <div className="col-12 copy-right text-center mt-4">
         <p>Copyright © 2023 MetaWise</p>
     </div>
 
