@@ -4,7 +4,7 @@ import Contacts from '../components/Contacts'
 
 export default function Conatct() {
   return (
-    <div className='px-lg-4'>
+    <div className='px-lg-4 contact-viewport'>
  <Nav/>
     <Contacts/>
     </div>

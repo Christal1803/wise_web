@@ -102,6 +102,55 @@ p.user-bio {
 .owl-item.active.center {
   transform: scale(1.1) !important;
 }
+
+.search {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+background: #2E3136;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #CB3D00;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+  
+  .contact-viewport{
+    height: 100vh;
+    overflow: hidden;
+  }
+  .bg-image{
+    /* background: url(/public/images/rectangle.png); */
+    background: url(/public/images/rectangle.png), lightgray 0% 0% / 100px 100px repeat, url(/public/images/whitebg.jpg), lightgray 0% 0% / 100px 100px repeat;
+    mix-blend-mode: difference;
+ 
+
+  }
+  .blend-mode{
+    background-color: #fff;
+  }
 .dot-1 {
   position: relative;
   left: -92px;
