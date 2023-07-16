@@ -171,9 +171,7 @@ button.btn.btn-primary.w-100 {
       line-height: 63px;
       letter-spacing: 0em;
   }
-  .banner-img {
-    display: none;
-  }
+ 
   .mt-sm-3 {
     margin-top: 0.5rem !important;
 }
@@ -237,7 +235,7 @@ button.btn.btn-primary.w-100 {
   padding: 2rem;
 }
 .footermain > p.main-text2 {
-  
+
 }
 
 }
