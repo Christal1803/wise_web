@@ -150,16 +150,7 @@ p.user-bio {
   height: 100vh;
   overflow: hidden;
 }
-.bg-image {
-  /* background: url(/public/images/rectangle.png); */
-  background: url(/public/images/rectangle.png),
-    lightgray 0% 0% / 100px 100px repeat, url(/public/images/whitebg.jpg),
-    lightgray 0% 0% / 100px 100px repeat;
-  mix-blend-mode: difference;
-}
-.blend-mode {
-  background-color: #fff;
-}
+
 .dot-1 {
   position: relative;
   left: -92px;
