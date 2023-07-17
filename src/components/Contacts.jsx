@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Contacts() {
+
+  const openCalendly = () => {
+    window.open('https://calendly.com/thewise_ai/30min');
+  }
+
   return (
     <div className="container-fluid">
       <div className="row">
@@ -85,6 +90,9 @@ export default function Contacts() {
             <div className="row mt-3">
               <div className="col-12">
                 <button className="btn btn-primary w-100">Submit</button>
+              </div>
+              <div className="col-12 mt-3">
+                <button className="btn btn-primary w-100" onClick={openCalendly}>Schedule a call</button>
               </div>
             </div>
           </div>
