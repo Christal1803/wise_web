@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 import twitter from "../assets/twitter.png";
 import facebook from "../assets/fb.png";
 import insta from "../assets/insta.png";
+import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
 
 export default function Section5() {
-
-  const redirectToNoLink = () => {
-    return "javascript:void(0)";
-  }
 
   return (
     <div className="containter-fluid">
@@ -61,7 +58,12 @@ export default function Section5() {
               </Link>
             </li>
             <li class="nav-item footer-nav">
-              <a href={redirectToNoLink} class="nav-link px-2 text-muted">
+              <a
+                href={privacyPolicyDoc}
+                target="_blank"
+                rel="noreferrer"
+                class="nav-link px-2 text-muted"
+              >
                 Privacy Policy
               </a>
             </li>
@@ -71,30 +73,33 @@ export default function Section5() {
         <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
           <ul className="nav footer-social">
             <li class="nav-item footer-social-item">
-              <a href="https://twitter.com/theWise_AI" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
-                <img
-                  src={twitter}
-                  className="img-fluid"
-                  alt="Twitter"
-                />
+              <a
+                href="https://twitter.com/theWise_AI"
+                target="_blank"
+                rel="noreferrer"
+                class="nav-link px-2 text-muted"
+              >
+                <img src={twitter} className="img-fluid" alt="Twitter" />
               </a>
             </li>
             <li class="nav-item footer-social-item">
-              <a href="https://www.facebook.com/profile.php?id=100094932307566" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
-                <img
-                  src={facebook}
-                  className="img-fluid"
-                  alt="Facebook"
-                />
+              <a
+                href="https://www.facebook.com/profile.php?id=100094932307566"
+                target="_blank"
+                rel="noreferrer"
+                class="nav-link px-2 text-muted"
+              >
+                <img src={facebook} className="img-fluid" alt="Facebook" />
               </a>
             </li>
             <li class="nav-item footer-social-item">
-              <a href="https://www.instagram.com/thewise_ai/" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
-                <img
-                  src={insta}
-                  className="img-fluid"
-                  alt="Insta"
-                />
+              <a
+                href="https://www.instagram.com/thewise_ai/"
+                target="_blank"
+                rel="noreferrer"
+                class="nav-link px-2 text-muted"
+              >
+                <img src={insta} className="img-fluid" alt="Insta" />
               </a>
             </li>
           </ul>
