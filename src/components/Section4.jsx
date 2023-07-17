@@ -33,7 +33,7 @@ export default function Section4() {
           <OwlCarousel
             className="owl-theme"
             items={3}
-            autoplay={false}
+            autoplay={true}
             center={true}
             dots={true}
             loop={true}

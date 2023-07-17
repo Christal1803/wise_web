@@ -50,13 +50,13 @@ export default function Nav() {
             Socials
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="https://twitter.com/theWise_AI"><img src={twitter} className="img-fluid me-2"/>Twitter</a></li>
-            <li><a class="dropdown-item" href="https://www.linkedin.com/company/thewise-ai/"><img src={linkedin} className="img-fluid me-2"/>LinkedIn</a></li>
-            <li><a class="dropdown-item" href="https://www.linkedin.com/company/thewise-ai/"><img src={facebook} className="img-fluid me-2"/>Facebook</a></li>
-            <li><a class="dropdown-item" href="https://www.threads.net/@thewise_ai"><img src={threads} className="img-fluid me-2 f-icon"/>Threads</a></li>
-            <li><a class="dropdown-item" href="https://www.youtube.com/@theWise_AI/"><img src={yt} className="img-fluid me-2 f-icon"/>Youtube</a></li>
-            <li><a class="dropdown-item" href="https://www.instagram.com/thewise_ai/"><img src={insta} className="img-fluid me-2"/>Instagram</a></li>
-            <li><a class="dropdown-item" href="mailto:contact@thewise.ai"><img src={mail} className="img-fluid me-2 f-icon"/>Email</a></li>
+            <li><a class="dropdown-item" href="https://twitter.com/theWise_AI" target="_blank" ><img src={twitter} className="img-fluid me-2"/>Twitter</a></li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/company/thewise-ai/" target="_blank" ><img src={linkedin} className="img-fluid me-2"/>LinkedIn</a></li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/company/thewise-ai/" target="_blank" ><img src={facebook} className="img-fluid me-2"/>Facebook</a></li>
+            <li><a class="dropdown-item" href="https://www.threads.net/@thewise_ai" target="_blank" ><img src={threads} className="img-fluid me-2 f-icon"/>Threads</a></li>
+            <li><a class="dropdown-item" href="https://www.youtube.com/@theWise_AI/" target="_blank" ><img src={yt} className="img-fluid me-2 f-icon"/>Youtube</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/thewise_ai/" target="_blank" ><img src={insta} className="img-fluid me-2"/>Instagram</a></li>
+            <li><a class="dropdown-item" href="mailto:contact@thewise.ai" target="_blank" ><img src={mail} className="img-fluid me-2 f-icon"/>Email</a></li>
           </ul>
         </li>
 
