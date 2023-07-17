@@ -321,3 +321,6 @@ a.dropdown-item {
 img.img-fluid.me-2.f-icon {
   height: 21px;
 }
+.dropdown-toggle::after {
+  margin-left: 0.5rem;
+}

@@ -8,6 +8,7 @@ import Livingston from '../assets/Livingston.png'
 import SamPrabhu from '../assets/SamPrabhu.png'
 import Shreyan from '../assets/Shreyan.png'
 import Mithilesh from '../assets/Mithilesh.png'
+import cardlink from '../assets/card-link.png'
 
 export default function Section4() {
   return (
