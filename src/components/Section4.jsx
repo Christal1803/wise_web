@@ -33,7 +33,7 @@ export default function Section4() {
           <OwlCarousel
             className="owl-theme"
             items={3}
-            autoplay={true}
+            autoplay={false}
             center={true}
             dots={true}
             loop={true}
@@ -58,7 +58,7 @@ export default function Section4() {
           >
             <div class="row my-3">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-content">
-                <p className="user-name">Dhivya Daniel (DD)</p>
+                <p className="user-name">Dhivya Daniel (DD) <a href="https://www.linkedin.com/in/dhivyadaniel/" target="_blank"><img src={cardlink} className="ms-1 card-linked img-fluid"/></a></p>
                 <p className="user-role">CEO</p>
                 <p className="user-bio">
                   <div>Steered MetaWise Marketing as CEO</div>
@@ -73,7 +73,7 @@ export default function Section4() {
                 <div className="owl-img">
                   <img
                     src={Dhivya}
-                    className="img-fluid"
+                    className="img-fluid d-inline"
                     alt="CEO"
                   />
                 </div>
@@ -82,7 +82,7 @@ export default function Section4() {
 
             <div class="row my-3">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-content">
-                <p className="user-name">Livingston Cruz</p>
+                <p className="user-name">Livingston Cruz <a href="https://www.linkedin.com/in/cruz-livingston/" target="_blank"><img src={cardlink} className="ms-1 card-linked img-fluid"/></a></p>
                 <p className="user-role">COO</p>
                 <p className="user-bio">
                   Led Enterprise level Digital Transformations12 years in SaaS
@@ -103,7 +103,7 @@ export default function Section4() {
 
             <div class="row my-3">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-content">
-                <p className="user-name">Sam Prabhu</p>
+                <p className="user-name">Sam Prabhu <a href="https://www.linkedin.com/in/samprabhuj/" target="_blank"><img src={cardlink} className="ms-1 card-linked img-fluid"/></a></p>
                 <p className="user-role">CPO</p>
                 <p className="user-bio">
                   7-year SimScale StalwartM.Sc., RWTH Aachen UniversityStartup
@@ -124,7 +124,7 @@ export default function Section4() {
 
             <div class="row my-3">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-content">
-                <p className="user-name">Shreyan Mehta</p>
+                <p className="user-name">Shreyan Mehta <a href="https://www.linkedin.com/in/devsm/" target="_blank"><img src={cardlink} className="ms-1 card-linked img-fluid"/></a></p>
                 <p className="user-role">CTO</p>
                 <p className="user-bio">
                   10+ years of domain experience4+ years AI & GPT6+ years MERN
@@ -145,7 +145,7 @@ export default function Section4() {
 
             <div class="row my-3">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-content">
-                <p className="user-name">Mithilesh Nanj</p>
+                <p className="user-name">Mithilesh Nanj<a href="https://www.linkedin.com/in/mithileshnanj/" target="_blank"><img src={cardlink} className="ms-1 card-linked img-fluid"/></a></p>
                 <p className="user-role">Data Scientist</p>
                 <p className="user-bio">
                   7-year of Data Science exp, M.S.Data Science, Indiana University
