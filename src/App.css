@@ -150,16 +150,7 @@ p.user-bio {
   height: 100vh;
   overflow: hidden;
 }
-.bg-image {
-  /* background: url(/public/images/rectangle.png); */
-  background: url(/public/images/rectangle.png),
-    lightgray 0% 0% / 100px 100px repeat, url(/public/images/whitebg.jpg),
-    lightgray 0% 0% / 100px 100px repeat;
-  mix-blend-mode: difference;
-}
-.blend-mode {
-  background-color: #fff;
-}
+
 .dot-1 {
   position: relative;
   left: -92px;
@@ -177,4 +168,24 @@ p.user-bio {
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.footer-links{
+  justify-content: center;
+    display: flex;
+}
+.footer-nav{
+  margin: 0px 10px;
+}
+
+.footer-social{
+  justify-content: end;
+}
+.footer-social-item{
+  margin-left: 10px;
+}
+
+.footer-pad0{
+  padding: 0 !important;
 }

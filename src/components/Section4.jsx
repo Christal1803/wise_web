@@ -2,6 +2,12 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import masters from '../assets/masters.png'
+import Dhivya from '../assets/Dhivya.png'
+import Livingston from '../assets/Livingston.png'
+import SamPrabhu from '../assets/SamPrabhu.png'
+import Shreyan from '../assets/Shreyan.png'
+import Mithilesh from '../assets/Mithilesh.png'
 
 export default function Section4() {
   return (
@@ -10,7 +16,7 @@ export default function Section4() {
         <div className="col-12">
           <div className="section1 text-center">
             <img
-              src="https://imgur.com/TDLc2LC.png"
+              src={masters}
               className="img-fluid"
               alt="Section 4 Logo"
             />
@@ -65,7 +71,7 @@ export default function Section4() {
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                 <div className="owl-img">
                   <img
-                    src="https://imgur.com/FCuEGoA.png"
+                    src={Dhivya}
                     className="img-fluid"
                     alt="CEO"
                   />
@@ -86,7 +92,7 @@ export default function Section4() {
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                 <div className="owl-img">
                   <img
-                    src="https://imgur.com/Up8aDy6.png"
+                    src={Livingston}
                     className="img-fluid"
                     alt="COO"
                   />
@@ -107,7 +113,7 @@ export default function Section4() {
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                 <div className="owl-img">
                   <img
-                    src="https://imgur.com/3VvcAC3.png"
+                    src={SamPrabhu}
                     className="img-fluid"
                     alt="CPO"
                   />
@@ -128,7 +134,7 @@ export default function Section4() {
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                 <div className="owl-img">
                   <img
-                    src="https://imgur.com/wYaaEe9.png"
+                    src={Shreyan}
                     className="img-fluid"
                     alt="CTO"
                   />
@@ -148,7 +154,7 @@ export default function Section4() {
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                 <div className="owl-img">
                   <img
-                    src="https://imgur.com/bH8TD4B.png"
+                    src={Mithilesh}
                     className="img-fluid"
                     alt="Data Scientist"
                   />
