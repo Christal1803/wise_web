@@ -318,3 +318,9 @@ a.dropdown-item {
   text-decoration: none;
   background-color: var(--red, #fdb596) !important;
 }
+img.img-fluid.me-2.f-icon {
+  height: 21px;
+}
+.dropdown-toggle::after {
+  margin-left: 0.5rem;
+}
