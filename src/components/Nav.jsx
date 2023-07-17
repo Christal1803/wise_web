@@ -20,8 +20,8 @@ export default function Nav() {
     <nav class="navbar navbar-expand-lg" style={{ marginTop: "2rem" }}>
       <div class="container-fluid">
       <Link class="navbar-brand" to="/">
-          <img src="https://imgur.com/U61yxOl.png" className="img-fluid" alt="Logo" />
-        </Link>
+ <img src="https://imgur.com/U61yxOl.png" className="img-fluid" alt="Logo" />
+ </Link>
         <button
           class="navbar-toggler"
           type="button"
