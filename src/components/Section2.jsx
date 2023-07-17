@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import cz from "../assets/cz.png";
+import ih from "../assets/ih.png";
+import ws from "../assets/ws.png";
+import it from "../assets/it.png";
 
 export default function Section2() {
   const [activeDiv, setActiveDiv] = useState(2);
@@ -204,7 +208,7 @@ export default function Section2() {
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or1">
           <div className="img-outerline">
             <img
-              src="https://imgur.com/ATqMF2Z.png"
+              src={cz}
               className="img-fluid"
               alt="1"
             />
@@ -240,7 +244,7 @@ export default function Section2() {
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or3">
           <div className="img-outerline">
             <img
-              src="https://imgur.com/32bIYCu.png"
+              src={ws}
               className="img-fluid"
               alt="2"
             />
@@ -250,7 +254,7 @@ export default function Section2() {
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or5">
           <div className="img-outerline">
             <img
-              src="https://imgur.com/kE5dIwY.png"
+              src={ih}
               className="img-fluid"
               alt="3"
             />
@@ -288,7 +292,7 @@ export default function Section2() {
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or7">
           <div className="img-outerline">
             <img
-              src="https://imgur.com/NMWdI3Y.png"
+              src={it}
               className="img-fluid"
               alt="4"
             />

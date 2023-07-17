@@ -1,4 +1,6 @@
 import React from "react";
+import spm from "../assets/spm.png";
+import spmbanner from "../assets/spmbanner.png";
 
 export default function Section1() {
   return (
@@ -6,7 +8,7 @@ export default function Section1() {
       <div className="row">
         <div className="section1 text-center">
           <img
-            src="https://imgur.com/o6XLzQn.png"
+            src={spm}
             className="img-fluid"
             alt="Section 1"
           />
@@ -16,7 +18,7 @@ export default function Section1() {
 
         <div className="section1-img text-center mt-2">
           <img
-            src="https://imgur.com/x1UuP7X.png"
+            src={spmbanner}
             className="img-fluid"
             alt="Section 1"
           />

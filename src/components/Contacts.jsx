@@ -1,4 +1,5 @@
 import React from "react";
+import banner from '../assets/contactbanner.png'
 
 export default function Contacts() {
 
@@ -11,7 +12,7 @@ export default function Contacts() {
       <div className="row">
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <img
-            src="https://imgur.com/7u9rLMS.png"
+            src={banner}
             className="conatctimg img-fluid"
             alt="Contact"
           />

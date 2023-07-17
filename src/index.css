@@ -34,7 +34,7 @@ p.banner2 {
   color: #5a556c;
 }
 button.bannerbtn.btn {
-  padding: 7.048px 28.095px;
+  padding: 20.048px 14.095px;
   justify-content: center;
   align-items: center;
   gap: 14.048px;
@@ -133,7 +133,7 @@ button.bannerbtn.btn {
 
 .footermain {
   border-radius: 12px;
-  background: url("https://imgur.com/HQTzrfU.png"),
+  background: url('../src/assets/footerbg.png'),
     lightgray -175.856px -212.188px / 123.669% 438.845% no-repeat;
   padding: 60px;
   background-size: cover;
@@ -297,10 +297,24 @@ button.btn.btn-primary.w-100 {
 .card-content-list {
   padding-left: 1.5rem;
   margin-top: 0.5rem;
-  list-style-image: url("https://imgur.com/eLlFBEo.png");
+  list-style-image: url("../src/assets/check.png");
   padding: 8px 40px 8px 0;
 }
 ul.card-content-list li {
   color: #96949E;
   padding: 6px;
+}
+a.dropdown-item {
+  color: #415F7B;
+  /* font-family: SF Pro; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+  padding: 10px 20px;
+}
+.dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: var(--red, #fdb596) !important;
 }
