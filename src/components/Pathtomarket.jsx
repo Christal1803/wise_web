@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import usePreventBodyScroll from "./UsePreventBodyScroll";
+import reddot from "../assets/reddot.png";
 
 export default function Pathtomarket() {
   const sliderRef2 = useRef(null);
@@ -72,7 +73,7 @@ export default function Pathtomarket() {
                           <b>Q1 2024</b>
                         </span>
                         <img
-                          src="https://imgur.com/Umt6QrS.png"
+                          src={reddot}
                           className="img-fluid point-dot"
                           alt="Dot"
                         />
@@ -101,12 +102,12 @@ export default function Pathtomarket() {
                           <b>Q2 2024</b>
                         </span>
                         <img
-                          src="https://imgur.com/Umt6QrS.png"
+                          src={reddot}
                           className="img-fluid dot-1"
                           alt="Dot"
                         />
                         <img
-                          src="https://imgur.com/Umt6QrS.png"
+                           src={reddot}
                           className="img-fluid point-dot"
                           alt="Dot"
                         />
@@ -140,12 +141,12 @@ export default function Pathtomarket() {
                           <b>Q3 2024</b>
                         </span>
                         <img
-                          src="https://imgur.com/Umt6QrS.png"
+                           src={reddot}
                           className="img-fluid dot-1"
                           alt="Dot"
                         />
                         <img
-                          src="https://imgur.com/Umt6QrS.png"
+                           src={reddot}
                           className="img-fluid point-dot"
                           alt="Dot"
                         />
@@ -182,12 +183,12 @@ export default function Pathtomarket() {
                         <b>Q4 2024</b>
                       </span>
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                         src={reddot}
                         className="img-fluid dot-1"
                         alt="Dot"
                       />
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                        src={reddot}
                         className="img-fluid point-dot"
                         alt="Dot"
                       />
@@ -217,12 +218,12 @@ export default function Pathtomarket() {
                         <b>Q1 2025</b>
                       </span>
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                         src={reddot}
                         className="img-fluid dot-1"
                         alt="Dot"
                       />
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                         src={reddot}
                         className="img-fluid point-dot"
                         alt="Dot"
                       />
@@ -251,12 +252,12 @@ export default function Pathtomarket() {
                         <b>Q2 2025</b>
                       </span>
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                         src={reddot}
                         className="img-fluid dot-1"
                         alt="Dot"
                       />
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                        src={reddot}
                         className="img-fluid point-dot"
                         alt="Dot"
                       />
@@ -287,12 +288,12 @@ export default function Pathtomarket() {
                         <b>Q3 2025</b>
                       </span>
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                        src={reddot}
                         className="img-fluid dot-1"
                         alt="Dot"
                       />
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                         src={reddot}
                         className="img-fluid point-dot"
                         alt="Dot"
                       />
@@ -320,7 +321,7 @@ export default function Pathtomarket() {
                         <b>Q4 2025</b>
                       </span>
                       <img
-                        src="https://imgur.com/Umt6QrS.png"
+                        src={reddot}
                         className="img-fluid dot-1"
                         alt="Dot"
                       />

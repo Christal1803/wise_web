@@ -1,5 +1,6 @@
 import React from "react";
 import arrow from "../assets/arrow.png"
+import banner from '../assets/banner.png'
 
 export default function Banner() {
   return (
@@ -12,11 +13,11 @@ export default function Banner() {
             <br /> One Powerful AI
           </p>
           <button className="bannerbtn btn">Join Beta
-          <img src={arrow} className="img-fluid btn-arrow"/></button>
+          <img src={arrow} className="img-fluid btn-arrow ms-1"/></button>
         </div>
         <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center or1">
           <img
-            src="https://imgur.com/6lOLZ7m.png"
+            src={banner}
             className="img-fluid banner-img"
             alt="Banner"
           />

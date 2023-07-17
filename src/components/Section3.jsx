@@ -1,4 +1,5 @@
 import React from "react";
+import market from '../assets/market.png'
 
 export default function Section3() {
   return (
@@ -7,7 +8,7 @@ export default function Section3() {
         <div className="col-12">
           <div className="section1 text-center">
             <img
-              src="https://imgur.com/l0DPtkZ.png"
+              src={market}
               className="img-fluid"
               alt="Section 3 Logo"
             />
