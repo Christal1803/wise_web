@@ -1,14 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 
 export default function Section5() {
-  let navigate = useNavigate();
-
-  const navigateToContact = () => {
-    let path = `/contact`;
-    navigate(path);
-  };
 
   const redirectToNoLink = () => {
     return "javascript:void(0)";
