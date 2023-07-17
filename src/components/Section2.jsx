@@ -1,19 +1,30 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-export default function () {
-  const [activeDiv, setActiveDiv] = useState(0);
+export default function Section2() {
+  const [activeDiv, setActiveDiv] = useState(2);
   const handleProgressClick = (divNumber) => {
-    debugger;
     setActiveDiv(divNumber);
   };
+
   return (
     <div className="container-fluid mt-sm-3">
       <div className="row">
-        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(1)}  >
+        <div
+          className="col-sm-12 col-md-4 col-lg-4"
+          onClick={() => handleProgressClick(1)}
+        >
           <div class="card text-center border-0">
-            <div className="card-inner p-5" style={{
-                             boxShadow: activeDiv === 1 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" :" none",borderRadius: activeDiv === 1 ? "24px": "0px"
-                            }}>
+            <div
+              className="card-inner p-5"
+              style={
+                activeDiv === 1
+                  ? {
+                      boxShadow: "0px 10px 50px 0px rgba(0, 0, 0, 0.05)",
+                      borderRadius: "24px",
+                    }
+                  : {}
+              }
+            >
               <svg
                 className="img-fluid mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +61,7 @@ export default function () {
 
               <p className="card-text1">Deep-Dive Analytics</p>
 
-              <p className="card-text2">
+              <p className="card-text2 px-2">
                 Comprehensive insights fuel continuous campaign optimization and
                 actionable future planning
               </p>
@@ -58,11 +69,22 @@ export default function () {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(2)}>
+        <div
+          className="col-sm-12 col-md-4 col-lg-4"
+          onClick={() => handleProgressClick(2)}
+        >
           <div class="card text-center border-0">
-            <div className="card-inner p-5" style={{
-                             boxShadow: activeDiv === 2 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" : "none",borderRadius: activeDiv === 2 ? "24px": "0px"
-                            }}>
+            <div
+              className="card-inner p-5"
+              style={
+                activeDiv === 2
+                  ? {
+                      boxShadow: "0px 10px 50px 0px rgba(0, 0, 0, 0.05)",
+                      borderRadius: "24px",
+                    }
+                  : {}
+              }
+            >
               <svg
                 className="img-fluid mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +115,7 @@ export default function () {
 
               <p className="card-text1">Efficient</p>
 
-              <p className="card-text2">
+              <p className="card-text2 px-2">
                 Powerful Campaigns. Effortless Execution. Transform your
                 marketing efficiency with our intuitive platform
               </p>
@@ -101,11 +123,22 @@ export default function () {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4" onClick={() => handleProgressClick(3)}>
+        <div
+          className="col-sm-12 col-md-4 col-lg-4"
+          onClick={() => handleProgressClick(3)}
+        >
           <div class="card text-center border-0">
-            <div className="card-inner p-5" style={{
-                             boxShadow: activeDiv === 3 ? "0px 10px 50px 0px rgba(0, 0, 0, 0.05)" : "none",borderRadius: activeDiv === 3 ? "24px": "0px"
-                            }}>
+            <div
+              className="card-inner p-5"
+              style={
+                activeDiv === 3
+                  ? {
+                      boxShadow: "0px 10px 50px 0px rgba(0, 0, 0, 0.05)",
+                      borderRadius: "24px",
+                    }
+                  : {}
+              }
+            >
               <svg
                 className="mx-auto img-fluid"
                 xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +181,7 @@ export default function () {
 
               <p className="card-text1">Maximized ROI</p>
 
-              <p className="card-text2">
+              <p className="card-text2 px-2">
                 Ensure unparalleled returns from your marketing budget through
                 our precision-focused AI tools
               </p>
@@ -157,8 +190,8 @@ export default function () {
         </div>
       </div>
 
-      <div className="row m-3 main">
-        <div className="col-12 ">
+      <div className="row main mt-5">
+        <div className="col-12">
           <p className="main-text1">
             <span className="text-white">the</span>Wise.ai{" "}
           </p>
@@ -170,13 +203,17 @@ export default function () {
 
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or1">
           <div className="img-outerline">
-            <img src="https://imgur.com/ATqMF2Z.png" className="img-fluid" />
+            <img
+              src="https://imgur.com/ATqMF2Z.png"
+              className="img-fluid"
+              alt="1"
+            />
           </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or2">
           <p className="card-text1 text-white">Conceptualize With</p>
           <p className="main-text2 spl">Campaign Wizard</p>
-          <p className="main-text3">
+          <p className="main-text3 mr-3">
             Craft impactful campaigns effortlessly, driven by AI insights and
             competitor analysis
             <ul className="mt-2">
@@ -191,7 +228,8 @@ export default function () {
           <p className="card-text1 text-white">Create & Launch With</p>
           <p className="main-text2 spl">Wordsmith</p>
           <p className="main-text3">
-          Generate compelling, audience-centric content for diverse platforms effortlessly
+            Generate compelling, audience-centric content for diverse platforms
+            effortlessly
             <ul className="mt-2">
               <li>AI-crafted quality content</li>
               <li>Cross-platform compatibility</li>
@@ -201,20 +239,31 @@ export default function () {
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or3">
           <div className="img-outerline">
-            <img src="https://imgur.com/32bIYCu.png" className="img-fluid" />
+            <img
+              src="https://imgur.com/32bIYCu.png"
+              className="img-fluid"
+              alt="2"
+            />
           </div>
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or5">
           <div className="img-outerline">
-            <img src="https://imgur.com/kE5dIwY.png" className="img-fluid" />
+            <img
+              src="https://imgur.com/kE5dIwY.png"
+              className="img-fluid"
+              alt="3"
+            />
           </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or6">
           <p className="card-text1 text-white">Amplify & Reach With</p>
-          <p className="main-text2 spl">InfluencerHub, Ad Launcher & Press Pulse Tools</p>
+          <p className="main-text2 spl">
+            InfluencerHub, Ad Launcher & Press Pulse Tools
+          </p>
           <p className="main-text3">
-          Connect with industry-specific influencers, launch effective ads, and secure media coverage for unparalleled reach
+            Connect with industry-specific influencers, launch effective ads,
+            and secure media coverage for unparalleled reach
             <ul className="mt-2">
               <li>Targeted influencer collaboration</li>
               <li>Effortless ad campaign launches</li>
@@ -227,7 +276,8 @@ export default function () {
           <p className="card-text1 text-white">Evaluate & Optimize With</p>
           <p className="main-text2 spl">Insights Tool</p>
           <p className="main-text3">
-          Analyze and refine your marketing efforts with comprehensive data insights and actionable recommendations
+            Analyze and refine your marketing efforts with comprehensive data
+            insights and actionable recommendations
             <ul className="mt-2">
               <li>In-depth campaign performance analysis</li>
               <li>Social sentiment analysis</li>
@@ -237,7 +287,11 @@ export default function () {
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or7">
           <div className="img-outerline">
-            <img src="https://imgur.com/NMWdI3Y.png" className="img-fluid" />
+            <img
+              src="https://imgur.com/NMWdI3Y.png"
+              className="img-fluid"
+              alt="4"
+            />
           </div>
         </div>
       </div>

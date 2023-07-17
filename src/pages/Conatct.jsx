@@ -1,13 +1,14 @@
-import React from 'react'
-import Nav from '../components/Nav'
-import Contacts from '../components/Contacts'
+import React from "react";
+import Nav from "../components/Nav";
+import Contacts from "../components/Contacts";
+import Section5 from "../components/Section5";
 
 export default function Conatct() {
   return (
-    <div className='px-lg-4 contact-viewport'>
- <Nav/>
-    <Contacts/>
+    <div className="px-lg-4">
+      <Nav />
+      <Contacts />
+      <Section5 />
     </div>
-   
-  )
+  );
 }

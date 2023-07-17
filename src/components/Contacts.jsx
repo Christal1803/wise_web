@@ -8,6 +8,7 @@ export default function Contacts() {
           <img
             src="https://imgur.com/7u9rLMS.png"
             className="conatctimg img-fluid"
+            alt="Contact"
           />
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
@@ -41,48 +42,50 @@ export default function Contacts() {
             </div>
 
             <div className="row mt-3">
-            <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-  <label for="exampleInputEmail" class="form-label">
-    Email
-  </label>
-  <input
-    type="email"
-    class="form-control"
-    id="exampleInputEmail"
-    aria-describedby="NameEmail"
-  />
-</div>
+              <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
+                <label for="exampleInputEmail" class="form-label">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail"
+                  aria-describedby="NameEmail"
+                />
+              </div>
 
-<div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-  <label for="exampleInputEmail" class="form-label">
-    Mobile Number
-  </label>
-  <input
-    type="mob"
-    class="form-control"
-    id="exampleInputEmail"
-    aria-describedby="NameEmail"
-  />
-</div>
+              <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
+                <label for="exampleInputEmail" class="form-label">
+                  Contact Number
+                </label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="exampleInputEmail"
+                  aria-describedby="NameEmail"
+                />
+              </div>
             </div>
 
-
-
             <div className="row mt-3">
-                <div className="col-12">
+              <div className="col-12">
                 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    Subject
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
                 </div>
-
-                
+              </div>
             </div>
 
             <div className="row mt-3">
-                <div className="col-12">
+              <div className="col-12">
                 <button className="btn btn-primary w-100">Submit</button>
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -90,5 +93,3 @@ export default function Contacts() {
     </div>
   );
 }
-
-
