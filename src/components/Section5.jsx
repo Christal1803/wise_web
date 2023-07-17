@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import twitter from "../assets/twitter.png";
+import facebook from "../assets/fb.png";
+import insta from "../assets/insta.png";
 
 export default function Section5() {
 
@@ -70,7 +73,7 @@ export default function Section5() {
             <li class="nav-item footer-social-item">
               <a href="https://twitter.com/theWise_AI" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
-                  src="https://imgur.com/qgkrMm0.png"
+                  src={twitter}
                   className="img-fluid"
                   alt="Twitter"
                 />
@@ -79,7 +82,7 @@ export default function Section5() {
             <li class="nav-item footer-social-item">
               <a href="https://www.facebook.com/profile.php?id=100094932307566" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
-                  src="https://imgur.com/ZoyfRGU.png"
+                  src={facebook}
                   className="img-fluid"
                   alt="Facebook"
                 />
@@ -88,7 +91,7 @@ export default function Section5() {
             <li class="nav-item footer-social-item">
               <a href="https://www.instagram.com/thewise_ai/" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
-                  src="https://imgur.com/WxdOxac.png"
+                  src={insta}
                   className="img-fluid"
                   alt="Insta"
                 />
