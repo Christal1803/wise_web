@@ -5,6 +5,7 @@ import twitter from '../assets/twitter.png'
 import linkedin from '../assets/linkedin.png'
 import facebook from '../assets/fb.png'
 import insta from '../assets/insta.png'
+import { Link } from "react-router-dom";
 
 export default function Nav() {
 
@@ -15,9 +16,9 @@ export default function Nav() {
   return (
     <nav class="navbar navbar-expand-lg" style={{ marginTop: "2rem" }}>
       <div class="container-fluid">
-        <a class="navbar-brand" href="#noLink" onClick={navigateToHome}>
-          <img src={logo} className="img-fluid" alt="Logo" />
-        </a>
+      <Link class="navbar-brand" to="/">
+          <img src="https://imgur.com/U61yxOl.png" className="img-fluid" alt="Logo" />
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
