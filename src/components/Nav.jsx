@@ -11,17 +11,9 @@ import threads from '../assets/threads.svg'
 
 export default function Nav() {
 
-  let navigate = useNavigate();
-
-  const navigateToContact = () => {
-    let path = `/contact`;
-    navigate(path);
-  };
-
-  const navigateToHome = () => {
-    let path = `/`;
-    navigate(path);
-  };
+  const redirectToNoLink = () => {
+    return "javascript:void(0)";
+  }
 
   return (
     <nav class="navbar navbar-expand-lg" style={{ marginTop: "2rem" }}>
@@ -43,13 +35,13 @@ export default function Nav() {
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#noLink">Doc</a>
+              <a class="nav-link" href={redirectToNoLink}>Doc</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#noLink">Invest</a>
+              <a class="nav-link" href={redirectToNoLink}>Invest</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#noLink">Blog</a>
+              <a class="nav-link" href={redirectToNoLink}>Blog</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -68,9 +60,9 @@ export default function Nav() {
         </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#noLink" onClick={navigateToContact}>
+              <Link class="nav-link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

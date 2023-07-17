@@ -70,7 +70,7 @@ export default function Pathtomarket() {
                     <div className="carosel-card p-3">
                       <div className="carosel-card-head">
                         <span className="">
-                          <b>Q1 2024</b>
+                          <b>Q4 2023</b>
                         </span>
                         <img
                           src={reddot}
@@ -81,7 +81,7 @@ export default function Pathtomarket() {
 
                       <div className="carosel-card-coontent">
                         <ul className="card-content-list">
-                          <li>Completion of POC - Campaign wizard</li>
+                          <li>Completion of POC - Campaign wizard </li>
                           <li>Definition of Ideal customer profiles</li>
                           <li>Creation of knowledge graph</li>
                           <li>Influencer discovery & filter feature</li>
@@ -99,7 +99,7 @@ export default function Pathtomarket() {
                     <div className="carosel-card p-3">
                       <div className="carosel-card-head">
                         <span className="">
-                          <b>Q2 2024</b>
+                          <b>Q1 2024</b>
                         </span>
                         <img
                           src={reddot}
@@ -138,7 +138,7 @@ export default function Pathtomarket() {
                     <div className="carosel-card p-3">
                       <div className="carosel-card-head">
                         <span className="">
-                          <b>Q3 2024</b>
+                          <b>Q2 2024</b>
                         </span>
                         <img
                            src={reddot}
@@ -154,10 +154,7 @@ export default function Pathtomarket() {
 
                       <div className="carosel-card-coontent">
                         <ul className="card-content-list">
-                          <li>
-                            Campaign Analytics & Completion of Campaign Wizard
-                            module
-                          </li>
+                        <li><b>Paid Pilot - Beta Launch</b></li>
                           <li>
                             Wordsmith - Plagiarism check and Grammar check 
                           </li>
@@ -180,7 +177,7 @@ export default function Pathtomarket() {
                   <div className="carosel-card p-3">
                     <div className="carosel-card-head">
                       <span className="">
-                        <b>Q4 2024</b>
+                        <b>Q3 2024</b>
                       </span>
                       <img
                          src={reddot}
@@ -196,13 +193,12 @@ export default function Pathtomarket() {
 
                     <div className="carosel-card-coontent">
                       <ul className="card-content-list">
-                        <li>(Paid Pilot - Beta Launch)</li>
+                        <li>Campaign Analytics & Completion of Campaign Wizard module</li>
                         <li>Implement AI models in Campaign Wizard</li>
                         <li>
                           Enable Knowledge graph & AI mapping in Influencers Hub
                         </li>
                         <li>Completion of Press Pulse</li>
-                        <li>Integration of partner platforms</li>
                       </ul>
                     </div>
                   </div>
@@ -215,7 +211,7 @@ export default function Pathtomarket() {
                   <div className="carosel-card p-3">
                     <div className="carosel-card-head">
                       <span className="">
-                        <b>Q1 2025</b>
+                        <b>Q4 2024</b>
                       </span>
                       <img
                          src={reddot}
@@ -237,6 +233,7 @@ export default function Pathtomarket() {
                           generation
                         </li>
                         <li>Develop Insights & Trend Analysis</li>
+                        <li>Integration of partner platforms</li>
                       </ul>
                     </div>
                   </div>
@@ -249,7 +246,7 @@ export default function Pathtomarket() {
                   <div className="carosel-card p-3">
                     <div className="carosel-card-head">
                       <span className="">
-                        <b>Q2 2025</b>
+                        <b>Q1 2025</b>
                       </span>
                       <img
                          src={reddot}
@@ -265,7 +262,7 @@ export default function Pathtomarket() {
 
                     <div className="carosel-card-coontent">
                       <ul className="card-content-list">
-                        <li>Full commercial launch</li>
+                        <li><b>Full commercial launch</b></li>
                         <li>
                           Enhancements & fulfillment of feedback from customers
                         </li>
@@ -285,7 +282,7 @@ export default function Pathtomarket() {
                   <div className="carosel-card p-3">
                     <div className="carosel-card-head">
                       <span className="">
-                        <b>Q3 2025</b>
+                        <b>Q2 2025</b>
                       </span>
                       <img
                         src={reddot}
@@ -318,7 +315,7 @@ export default function Pathtomarket() {
                   <div className="carosel-card p-3">
                     <div className="carosel-card-head">
                       <span className="">
-                        <b>Q4 2025</b>
+                        <b>Q3 2025 onwards..</b>
                       </span>
                       <img
                         src={reddot}

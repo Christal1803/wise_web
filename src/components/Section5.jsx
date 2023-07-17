@@ -1,14 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 
 export default function Section5() {
-  let navigate = useNavigate();
-
-  const navigateToContact = () => {
-    let path = `/contact`;
-    navigate(path);
-  };
 
   const redirectToNoLink = () => {
     return "javascript:void(0)";
@@ -34,7 +27,7 @@ export default function Section5() {
       </div>
 
       <div className="row m-3">
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-3">
+        <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
           <img
             src="https://imgur.com/U61yxOl.png"
             className="img-fluid"
@@ -42,29 +35,29 @@ export default function Section5() {
           />
         </div>
 
-        <div className="col-sm-12 col-md-6 col-lg-6 mt-3">
+        <div className="col-sm-12 col-md-6 col-lg-6 mt-3 footer-links">
           <ul className="nav">
-            <li class="nav-item">
+            <li class="nav-item footer-nav">
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Doc
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item footer-nav">
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Invest
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item footer-nav">
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Blog
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item footer-nav">
               <Link to="/contact" class="nav-link px-2 text-muted">
                 Contact
               </Link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item footer-nav">
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Privacy Policy
               </a>
@@ -72,9 +65,9 @@ export default function Section5() {
           </ul>
         </div>
 
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-3">
-          <ul className="nav">
-            <li class="nav-item">
+        <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
+          <ul className="nav footer-social">
+            <li class="nav-item footer-social-item">
               <a href="https://twitter.com/theWise_AI" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
                   src="https://imgur.com/qgkrMm0.png"
@@ -83,7 +76,7 @@ export default function Section5() {
                 />
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item footer-social-item">
               <a href="https://www.facebook.com/profile.php?id=100094932307566" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
                   src="https://imgur.com/ZoyfRGU.png"
@@ -92,8 +85,8 @@ export default function Section5() {
                 />
               </a>
             </li>
-            <li class="nav-item">
-              <a href="https://www.instagram.com/thewise_ai" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
+            <li class="nav-item footer-social-item">
+              <a href="https://www.instagram.com/thewise_ai/" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted">
                 <img
                   src="https://imgur.com/WxdOxac.png"
                   className="img-fluid"
