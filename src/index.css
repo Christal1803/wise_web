@@ -324,3 +324,9 @@ img.img-fluid.me-2.f-icon {
 .dropdown-toggle::after {
   margin-left: 0.5rem;
 }
+img.ms-1.card-linked.img-fluid {
+  height: 24px;
+  width: 24px;
+  display: inline;
+  padding-bottom: 3px;
+}
