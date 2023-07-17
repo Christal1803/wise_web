@@ -14,18 +14,6 @@ export default function Section5() {
     return "javascript:void(0)";
   }
 
-  const redirectToTwitterLink = () => {
-    return "javascript:void(0)";
-  }
-
-  const redirectToFbLink = () => {
-    return "https://www.facebook.com/profile.php?id=100094932307566";
-  }
-
-  const redirectToInstaLink = () => {
-    return "javascript:void(0)";
-  }
-
   return (
     <div className="containter-fluid">
       <div className="row m-3 footermain">
