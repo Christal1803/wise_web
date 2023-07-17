@@ -178,3 +178,23 @@ p.user-bio {
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
+
+
+.footer-links{
+  justify-content: center;
+    display: flex;
+}
+.footer-nav{
+  margin: 0px 10px;
+}
+
+.footer-social{
+  justify-content: end;
+}
+.footer-social-item{
+  margin-left: 10px;
+}
+
+.footer-pad0{
+  padding: 0 !important;
+}
