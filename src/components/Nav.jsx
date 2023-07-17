@@ -36,7 +36,7 @@ export default function Nav() {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link" href={redirectToNoLink}>
                 Doc
               </a>
@@ -50,7 +50,7 @@ export default function Nav() {
               <a class="nav-link" href={redirectToNoLink}>
                 Blog
               </a>
-            </li>
+            </li> */}
 
             <li class="nav-item dropdown">
               <a

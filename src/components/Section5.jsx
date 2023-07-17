@@ -40,7 +40,7 @@ export default function Section5() {
 
         <div className="col-sm-12 col-md-6 col-lg-6 mt-3 footer-links">
           <ul className="nav">
-            <li class="nav-item footer-nav">
+            {/* <li class="nav-item footer-nav">
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Doc
               </a>
@@ -54,7 +54,7 @@ export default function Section5() {
               <a href={redirectToNoLink} class="nav-link px-2 text-muted">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li class="nav-item footer-nav">
               <Link to="/contact" class="nav-link px-2 text-muted">
                 Contact
