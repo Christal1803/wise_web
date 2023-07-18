@@ -304,6 +304,9 @@ ul.card-content-list li {
   color: #96949E;
   padding: 6px;
 }
+ul.card-content-list li b {
+  color: #CB3D00;
+}
 a.dropdown-item {
   color: #415F7B;
   /* font-family: SF Pro; */

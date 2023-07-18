@@ -23,24 +23,24 @@ export default function Contacts() {
           <div className="col-md-12">
             <div className="row mt-5">
               <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-                <label for="exampleInputName" class="form-label">
+                <label for="exampleInputName" className="form-label">
                   First Name
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputName"
                   aria-describedby="NameHelp"
                 />
               </div>
 
               <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-                <label for="exampleInputName" class="form-label">
+                <label for="exampleInputName" className="form-label">
                   Last Name
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputName"
                   aria-describedby="NameHelp"
                 />
@@ -49,24 +49,24 @@ export default function Contacts() {
 
             <div className="row mt-3">
               <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-                <label for="exampleInputEmail" class="form-label">
+                <label for="exampleInputEmail" className="form-label">
                   Email
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputEmail"
                   aria-describedby="NameEmail"
                 />
               </div>
 
               <div className="col-lg-6 col-sm-12 col-md-6 pl-0">
-                <label for="exampleInputEmail" class="form-label">
+                <label for="exampleInputEmail" className="form-label">
                   Contact Number
                 </label>
                 <input
                   type="tel"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputEmail"
                   aria-describedby="NameEmail"
                 />
@@ -75,12 +75,12 @@ export default function Contacts() {
 
             <div className="row mt-3">
               <div className="col-12">
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">
+                <div className="mb-3">
+                  <label for="exampleFormControlTextarea1" className="form-label">
                     Subject
                   </label>
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                   ></textarea>
