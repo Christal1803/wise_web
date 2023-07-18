@@ -45,10 +45,10 @@ export default function Section4() {
                 items: 1, // Number of items to display on screens equal to or larger than 768px
               },
               992: {
-                items: 3, // Number of items to display on screens equal to or larger than 992px
+                items: 5, // Number of items to display on screens equal to or larger than 992px
               },
               1200: {
-                items: 3, // Number of items to display on screens equal to or larger than 1200px
+                items: 5, // Number of items to display on screens equal to or larger than 1200px
               },
             }}
           >
@@ -218,7 +218,6 @@ export default function Section4() {
               </div>
             </div>
           </OwlCarousel>
-          ;
         </div>
       </div>
     </div>

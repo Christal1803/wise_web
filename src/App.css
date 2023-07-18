@@ -99,22 +99,24 @@ p.user-bio {
   font-weight: 400;
   letter-spacing: 0.242px;
 }
-/* .owl-item.active {
+.owl-item.active {
   transform: scale(0.8) !important;
-} */
+}
 .owl-item.active.center {
   transform: scale(1.1) !important;
-  /* min-width: 500px; */
+  width: 40vw !important;
+  overflow: hidden;
 }
 .owl-item.active:not(.center) {
-  /* width: 205px !important; */
+  width: 14vw !important;
+  height: 25vh !important;
+  overflow: hidden;
 }
-.owl-item.active:not(.center) .my-content {
+.owl-item:not(.center) .my-content, .owl-item.cloned:last-child {
   display: none;
 }
 .owl-item.active.center .my-content {
   display: block;
-  min-width: 260px;
 }
 
 .search {
