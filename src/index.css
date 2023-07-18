@@ -1,9 +1,8 @@
 body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
-  background: url("https://imgur.com/R6mcdvW.png"),
-    lightgray 0% 0% / 100px 100px repeat, url("https://imgur.com/R6mcdvW.png"),
-    lightgray 0% 0% / 100px 100px repeat;
+    background-image: url('../src/assets/bg.png');
+    background-repeat: no-repeat;
 }
 a.nav-link {
   color: #415f7b;
