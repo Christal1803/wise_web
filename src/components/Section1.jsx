@@ -1,15 +1,15 @@
 import React from "react";
-import spm from "../assets/spm.png";
+import spm from "../assets/spm1.png";
 import spmbanner from "../assets/spmbanner.png";
 
 export default function Section1() {
   return (
     <div className="container-fluid mt-5 pt-lg-5 mt-sm-3">
       <div className="row">
-        <div className="section1 text-center">
+        <div className="section1 text-center spm">
           <img
             src={spm}
-            className="img-fluid"
+            className="img-fluid mb-4"
             alt="Section 1"
           />
           <p className="section1-head">Simple - Powerful - Magical</p>

@@ -72,9 +72,20 @@
 .item.row {
   padding: 2rem;
 }
-.owl-img {
+.owl-item.active.center > .row > .col-sm-12 > .owl-img {
   border-radius: 335px;
   border: 1px solid var(--red, #cb3d00);
+  padding: 3px;
+}
+.owl-item.cloned.active > .row > .col-sm-12 > .owl-img {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  padding: 3px;
+}
+
+.owl-item.active > .row > .col-sm-12 > .owl-img {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
   padding: 3px;
 }
 p.user-name {
@@ -195,4 +206,12 @@ p.user-bio {
 
 .footer-pad0{
   padding: 0 !important;
+}
+
+.dor-last {
+  position: relative;
+  left: -164px;
+  top: 22px;
+  display: inline !important;
+
 }

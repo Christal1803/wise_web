@@ -55,6 +55,12 @@ button.bannerbtn.btn {
   font-weight: 700;
   line-height: 120%;
 }
+.section1.text-center.spm > img {
+  border-radius: 10px;
+  width: 64px;
+  height: 59px;
+  box-shadow: 0 6px 31px -2px #0000001a;
+}
 .section1-text {
   color: #5a556c;
   font-size: 16px;
@@ -96,7 +102,7 @@ button.bannerbtn.btn {
 }
 .main-text2 {
   color: #fff;
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 38.4px */
@@ -109,7 +115,7 @@ button.bannerbtn.btn {
   line-height: 140%; /* 25.2px */
 }
 .main-text3 ul li:first-child {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .main-text3 ul li {
   padding: 8px;
@@ -209,9 +215,9 @@ button.btn.btn-primary.w-100 {
     font-weight: 700;
     line-height: 120%;
   }
-  .col-sm-12.col-md-12.col-lg-6.mt-5.my-auto.p-5.p-s-3 {
-    padding: 1rem !important;
-  }
+  .row.main.mt-5 {
+    padding: 10px;
+}
 
   .or1 {
     order: 1;
@@ -297,7 +303,7 @@ button.btn.btn-primary.w-100 {
 .card-content-list {
   padding-left: 1.5rem;
   margin-top: 0.5rem;
-  list-style-image: url("../src/assets/check.png");
+  list-style-image: url('../src/assets/check.svg') !important;
   padding: 8px 40px 8px 0;
 }
 ul.card-content-list li {

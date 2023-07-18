@@ -205,7 +205,7 @@ export default function Section2() {
           <p className="main-text3">Marketing made easy </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or1">
+        <div className="col-sm-12 col-md-12 col-lg-6 or1">
           <div className="img-outerline">
             <img
               src={cz}
@@ -214,7 +214,7 @@ export default function Section2() {
             />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or2">
+        <div className="col-sm-12 col-md-12 col-lg-6 px-5 my-auto p-s-3 or2">
           <p className="card-text1 text-white">Conceptualize With</p>
           <p className="main-text2 spl">Campaign Wizard</p>
           <p className="main-text3 mr-3">
@@ -228,7 +228,10 @@ export default function Section2() {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or4">
+        <div className="mt-5"></div>
+        <div className="mt-4"></div>
+
+        <div className="col-sm-12 col-md-12 col-lg-6 px-5  my-auto p-s-3 or4">
           <p className="card-text1 text-white">Create & Launch With</p>
           <p className="main-text2 spl">Wordsmith</p>
           <p className="main-text3">
@@ -241,7 +244,7 @@ export default function Section2() {
             </ul>{" "}
           </p>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or3">
+        <div className="col-sm-12 col-md-12 col-lg-6 or3">
           <div className="img-outerline">
             <img
               src={ws}
@@ -250,8 +253,11 @@ export default function Section2() {
             />
           </div>
         </div>
+        
+        <div className="mt-5"></div>
+        <div className="mt-4"></div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or5">
+        <div className="col-sm-12 col-md-12 col-lg-6  or5">
           <div className="img-outerline">
             <img
               src={ih}
@@ -260,7 +266,7 @@ export default function Section2() {
             />
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or6">
+        <div className="col-sm-12 col-md-12 px-5 col-lg-6 my-auto p-s-3 or6">
           <p className="card-text1 text-white">Amplify & Reach With</p>
           <p className="main-text2 spl">
             InfluencerHub, Ad Launcher & Press Pulse Tools
@@ -276,7 +282,10 @@ export default function Section2() {
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 my-auto p-5 p-s-3 or8">
+        <div className="mt-5"></div>
+        <div className="mt-4"></div>
+
+        <div className="col-sm-12 col-md-12 col-lg-6 px-5 my-auto p-s-3 or8">
           <p className="card-text1 text-white">Evaluate & Optimize With</p>
           <p className="main-text2 spl">Insights Tool</p>
           <p className="main-text3">
@@ -289,7 +298,7 @@ export default function Section2() {
             </ul>{" "}
           </p>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 mt-5 or7">
+        <div className="col-sm-12 col-md-12 col-lg-6 or7">
           <div className="img-outerline">
             <img
               src={it}

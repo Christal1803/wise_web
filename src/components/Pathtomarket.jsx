@@ -319,7 +319,7 @@ export default function Pathtomarket() {
                       </span>
                       <img
                         src={reddot}
-                        className="img-fluid dot-1"
+                        className="img-fluid dot-last"
                         alt="Dot"
                       />
                     </div>
