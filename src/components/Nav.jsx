@@ -97,7 +97,7 @@ export default function Nav() {
                 <li>
                   <a
                     class="dropdown-item"
-                    href="https://www.linkedin.com/company/thewise-ai/"
+                    href="https://www.facebook.com/people/TheWise_AI/100094932307566/"
                     target="_blank"
                     rel="noreferrer"
                   >

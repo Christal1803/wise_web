@@ -28,11 +28,11 @@ export default function Section5() {
 
       <div className="row m-3">
         <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
-          <img
+        <Link  to="/"><img
             src="https://imgur.com/U61yxOl.png"
             className="img-fluid"
             alt="Logo"
-          />
+          /></Link>
         </div>
 
         <div className="col-sm-12 col-md-6 col-lg-6 mt-3 footer-links">
