@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import twitter from "../assets/twitter.png";
 import facebook from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
+import axios from "axios";
 
 export default function Section5() {
+  const [email, setEmail] = useState("");
+
+  const subscribeToProgram = (e) => {
+    e.preventDefault();
+    axios
+      .post(`${process.env.API_URL}/subscribe/email`, {
+        email: email,
+      })
+      .then((response) => {
+        if (response && response?.status === 200) {
+          setEmail('');
+          // showSuccessMessage('')
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const formOnChange = (e) => {
+    setEmail(e.target.value);
+  };
 
   return (
     <div className="containter-fluid mt-5">
@@ -20,19 +43,21 @@ export default function Section5() {
             <button className="btn btn-primary">Subscribe</button>
           </div> */}
           <div class="search">
-            <input placeholder="Enter Email Address" type="text" />
-            <button type="submit">Subscribe</button>
+            <input placeholder="Enter Email Address" type="text" onChange={(e) => formOnChange(e)} />
+            <button type="submit" onClick={(e) => subscribeToProgram(e)}>Subscribe</button>
           </div>
         </div>
       </div>
 
       <div className="row m-3">
         <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
-        <Link  to="/"><img
-            src="https://imgur.com/U61yxOl.png"
-            className="img-fluid"
-            alt="Logo"
-          /></Link>
+          <Link to="/">
+            <img
+              src="https://imgur.com/U61yxOl.png"
+              className="img-fluid"
+              alt="Logo"
+            />
+          </Link>
         </div>
 
         <div className="col-sm-12 col-md-6 col-lg-6 mt-3 footer-links">
