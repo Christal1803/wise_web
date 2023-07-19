@@ -63,7 +63,7 @@
   background: antiquewhite;
   height: 2px;
   position: relative;
-  top: 84px;
+  top: 76px;
   margin: 0px 30px;
 }
 .slick-center {
@@ -133,12 +133,12 @@ p.user-bio {
 .search {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 95%;
 }
 
 .search input[type="text"] {
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 10px 18px;
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: #2e3136;
@@ -171,8 +171,8 @@ p.user-bio {
 
 .dot-1 {
   position: relative;
-  left: -92px;
-  top: 22px;
+  left: -100px;
+  /* top: 22px; */
   display: inline !important;
 }
 .card.slidercard {
@@ -214,4 +214,15 @@ p.user-bio {
   top: 22px;
   display: inline !important;
 
+}
+
+.semi-bold{
+  font-weight: 500;
+}
+
+::placeholder {
+  color: white;
+}
+img.img-fluid.point-dot {
+  display: initial;
 }
