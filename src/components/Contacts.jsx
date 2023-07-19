@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import banner from "../assets/contactbanner.png";
 import axios from "axios";
+import postItem from "../services/ApiAccess";
 
 export default function Contacts() {
   const openCalendly = () => {
@@ -9,21 +10,14 @@ export default function Contacts() {
 
   const [webContact, setWebContact] = useState([]);
 
-  const addWebContact = (e) => {
+  const addWebContact = async (e) => {
     e.preventDefault();
-    axios
-      .post(`${process.env.API_URL}/subscribe/contact`, {
-        ...webContact,
-      })
-      .then((response) => {
-        if (response && response?.status === 200) {
-          setWebContact([]);
-          // showSuccessMessage('')
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+
+    const response = await postItem("subscribe/contact", { ...webContact });
+    if (response) {
+      setWebContact([]);
+    }
+
   };
 
   const formOnChange = (e) => {

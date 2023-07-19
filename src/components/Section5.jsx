@@ -4,26 +4,21 @@ import twitter from "../assets/twitter.png";
 import facebook from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
-import axios from "axios";
+import postItem from "../services/ApiAccess";
 
 export default function Section5() {
   const [email, setEmail] = useState("");
 
-  const subscribeToProgram = (e) => {
+  const subscribeToProgram = async (e) => {
     e.preventDefault();
-    axios
-      .post(`${process.env.API_URL}/subscribe/email`, {
-        email: email,
-      })
-      .then((response) => {
-        if (response && response?.status === 200) {
-          setEmail('');
-          // showSuccessMessage('')
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    const requestBody = {
+      email: email,
+    };
+
+    const response = await postItem("subscribe/email", requestBody);
+    if (response) {
+      setEmail("");
+    }
   };
 
   const formOnChange = (e) => {
@@ -43,8 +38,14 @@ export default function Section5() {
             <button className="btn btn-primary">Subscribe</button>
           </div> */}
           <div class="search">
-            <input placeholder="Enter Email Address" type="text" onChange={(e) => formOnChange(e)} />
-            <button type="submit" onClick={(e) => subscribeToProgram(e)}>Subscribe</button>
+            <input
+              placeholder="Enter Email Address"
+              type="text"
+              onChange={(e) => formOnChange(e)}
+            />
+            <button type="submit" onClick={(e) => subscribeToProgram(e)}>
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
