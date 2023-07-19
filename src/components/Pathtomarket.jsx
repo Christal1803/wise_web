@@ -67,8 +67,8 @@ export default function Pathtomarket() {
               <div className="card-container">
                 <div className="col-sm-12 col-md-12 col-lg-12">
                   <div class="card slidercard">
-                    <div className="carosel-card p-3">
-                      <div className="carosel-card-head">
+                    <div className="carosel-card p-4">
+                      <div className="carosel-card-head mt-2">
                         <span className="">
                           <b>Q4 2023</b>
                         </span>
@@ -96,8 +96,8 @@ export default function Pathtomarket() {
               <div className="card-container">
                 <div className="col-sm-12 col-md-12 col-lg-12">
                   <div class="card slidercard">
-                    <div className="carosel-card p-3">
-                      <div className="carosel-card-head">
+                    <div className="carosel-card p-4">
+                      <div className="carosel-card-head mt-2">
                         <span className="">
                           <b>Q1 2024</b>
                         </span>
@@ -135,8 +135,8 @@ export default function Pathtomarket() {
               <div className="card-container">
                 <div className="col-sm-12 col-md-12 col-lg-12">
                   <div class="card slidercard">
-                    <div className="carosel-card p-3">
-                      <div className="carosel-card-head">
+                    <div className="carosel-card p-4">
+                      <div className="carosel-card-head mt-2">
                         <span className="">
                           <b>Q2 2024</b>
                         </span>
@@ -174,8 +174,8 @@ export default function Pathtomarket() {
             <div key={4}>
               <div className="card-container">
                 <div class="card slidercard">
-                  <div className="carosel-card p-3">
-                    <div className="carosel-card-head">
+                  <div className="carosel-card p-4">
+                    <div className="carosel-card-head mt-2">
                       <span className="">
                         <b>Q3 2024</b>
                       </span>
@@ -208,8 +208,8 @@ export default function Pathtomarket() {
             <div key={5}>
               <div className="card-container">
                 <div class="card slidercard">
-                  <div className="carosel-card p-3">
-                    <div className="carosel-card-head">
+                  <div className="carosel-card p-4">
+                    <div className="carosel-card-head mt-2">
                       <span className="">
                         <b>Q4 2024</b>
                       </span>
@@ -243,8 +243,8 @@ export default function Pathtomarket() {
             <div key={6}>
               <div className="card-container">
                 <div class="card slidercard">
-                  <div className="carosel-card p-3">
-                    <div className="carosel-card-head">
+                  <div className="carosel-card p-4">
+                    <div className="carosel-card-head mt-2">
                       <span className="">
                         <b>Q1 2025</b>
                       </span>
@@ -279,8 +279,8 @@ export default function Pathtomarket() {
             <div key={7}>
               <div className="card-container">
                 <div class="card slidercard">
-                  <div className="carosel-card p-3">
-                    <div className="carosel-card-head">
+                  <div className="carosel-card p-4">
+                    <div className="carosel-card-head mt-2">
                       <span className="">
                         <b>Q2 2025</b>
                       </span>
@@ -312,8 +312,8 @@ export default function Pathtomarket() {
             <div key={8}>
               <div className="card-container">
                 <div class="card slidercard">
-                  <div className="carosel-card p-3">
-                    <div className="carosel-card-head">
+                  <div className="carosel-card p-4">
+                    <div className="carosel-card-head mt-2">
                       <span className="">
                         <b>Q3 2025 onwards..</b>
                       </span>
