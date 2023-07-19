@@ -11,7 +11,7 @@ export default function Banner() {
           <h1 className="banner1 py-2">Marketing Simplified</h1>
           <p className="banner2 py-2">
             Ideate, Execute, Promote, Analyze - All made possible by
-            <br /> One Powerful AI
+            <br /> <span className="semi-bold">One Powerful AI</span>
           </p>
           <button className="bannerbtn btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Join Beta
           <img src={arrow} className="img-fluid btn-arrow ms-1"/></button>

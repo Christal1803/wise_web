@@ -33,11 +33,11 @@ p.banner2 {
   color: #5a556c;
 }
 button.bannerbtn.btn {
-  padding: 20.048px 14.095px;
+  /* padding: 6.047999999999998px 14.095px; */
   justify-content: center;
   align-items: center;
   gap: 14.048px;
-  border-radius: 140.476px;
+  border-radius: 100.476px;
   background: var(--red, #cb3d00);
   color: #fff;
   font-size: 19.667px;
@@ -101,7 +101,7 @@ button.bannerbtn.btn {
 }
 .main-text2 {
   color: #fff;
-  font-size: 24px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 38.4px */
@@ -303,11 +303,11 @@ button.btn.btn-primary.w-100 {
   padding-left: 1.5rem;
   margin-top: 0.5rem;
   list-style-image: url('../src/assets/check.svg') !important;
-  padding: 8px 40px 8px 0;
+  padding: 8px 0px 8px 0;
 }
 ul.card-content-list li {
   color: #96949E;
-  padding: 6px;
+  padding: 3px 0px 6px 6px;
 }
 ul.card-content-list li b {
   color: #CB3D00;
@@ -333,8 +333,8 @@ img.img-fluid.me-2.f-icon {
   margin-left: 0.5rem;
 }
 img.ms-1.card-linked.img-fluid {
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 18px;
   display: inline;
   padding-bottom: 3px;
 }
