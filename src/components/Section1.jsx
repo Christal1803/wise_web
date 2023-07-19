@@ -9,7 +9,7 @@ export default function Section1() {
         <div className="section1 text-center spm">
           <img
             src={spm}
-            className="img-fluid mb-4"
+            className="img-fluid mb-4 mt-5"
             alt="Section 1"
           />
           <p className="section1-head">Simple - Powerful - Magical</p>

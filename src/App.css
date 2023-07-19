@@ -133,7 +133,7 @@ p.user-bio {
 .search {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 92%;
 }
 
 .search input[type="text"] {
@@ -143,6 +143,7 @@ p.user-bio {
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: #2e3136;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 .search button[type="submit"] {
