@@ -2,7 +2,7 @@ body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
     background-image: url('../src/assets/bg.png');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 a.nav-link {
   color: #415f7b;
