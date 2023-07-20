@@ -12,8 +12,8 @@ const postItem = async (url, requestBody) => {
             return false;
         })
         .catch((error) => {
-            console.log(error);
-            toastNotifications.showFailureMessage(error?.message);
+            const message = error.response?.data ? error.response?.data?.message : error.message;
+            toastNotifications.showFailureMessage(message);
             return false;
         });
 }

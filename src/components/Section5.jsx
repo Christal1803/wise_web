@@ -42,6 +42,7 @@ export default function Section5() {
               placeholder="Enter Email Address"
               type="text"
               onChange={(e) => formOnChange(e)}
+              value={email}
             />
             <button type="submit" onClick={(e) => subscribeToProgram(e)}>
               Subscribe

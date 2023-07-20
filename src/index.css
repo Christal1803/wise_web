@@ -380,10 +380,9 @@ img.img-fluid.banner-img-popup {
   color: #1b163a;
   padding: 0 !important;
 }
-.popup-banner {
+/* .popup-banner {
   background-image: url('../src/assets/bg.png');
-
-}
+} */
 .btn.sub-btn, .btn.sub-btn:hover, .btn.sub-btn:focus {
   background: var(--red, #cb3d00);
   border: 0;
