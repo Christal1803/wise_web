@@ -13,7 +13,7 @@ import { ToastContainer } from "react-toastify";
 export default function Home() {
   const { disableScroll, enableScroll } = usePreventBodyScroll();
   return (
-    <div className="px-lg-5 px-md-3 mx-4">
+    <div className="px-lg-5 px-md-3 mx-4 home">
       <Nav />
       <Banner />
       <Section1 />

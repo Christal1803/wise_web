@@ -28,7 +28,7 @@ export default function Section5() {
   return (
     <div className="containter-fluid mt-5">
       <div className="row m-3 footermain">
-        <div className="col-sm-12 col-md-6 col-lg-5">
+        <div className="col-sm-12 col-md-6 col-lg-5 sub">
           <p className="main-text2">
             Join our private beta program for <br></br>exclusive access
           </p>

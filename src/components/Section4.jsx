@@ -8,7 +8,7 @@ import Livingston from "../assets/Livingston.png";
 import SamPrabhu from "../assets/SamPrabhu.png";
 import Shreyan from "../assets/Shreyan.png";
 import Mithilesh from "../assets/Mithilesh.png";
-import cardlink from "../assets/card-link.png";
+import cardlink from "../assets/cardlink.png";
 
 export default function Section4() {
   return (
@@ -26,8 +26,9 @@ export default function Section4() {
 
         <div className="col-12 mt-5">
           {/* slider */}
-          <OwlCarousel
-            className="owl-theme"
+          <div className="smnone">
+     <OwlCarousel
+            className="owl-theme first-carousel" 
             items={3}
             autoplay={true}
             center={true}
@@ -218,6 +219,218 @@ export default function Section4() {
               </div>
             </div>
           </OwlCarousel>
+          </div>
+     
+
+
+<div class="smblock">
+<OwlCarousel className='owl-theme second-carousel' items={3} autoplay={false} center={true} dots={true} loop={true}  responsive={{
+  0: {
+    items: 1 // Number of items to display on screens smaller than 576px
+  },
+  576: {
+    items: 1 // Number of items to display on screens equal to or larger than 576px
+  },
+  768: {
+    items: 1 // Number of items to display on screens equal to or larger than 768px
+  },
+  992: {
+    items: 4 // Number of items to display on screens equal to or larger than 992px
+  },
+  1200: {
+    items: 3 // Number of items to display on screens equal to or larger than 1200px
+  }
+}}>
+
+
+
+
+
+<div class='item row '>
+
+
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div className='owl-img'>
+<img src='https://imgur.com/FCuEGoA.png' className='img-fluid'/>
+</div></div>
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center'>
+<p className="user-name">
+                  Dhivya Daniel (DD){" "}
+                  <a
+                    href="https://www.linkedin.com/in/dhivyadaniel/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={cardlink}
+                      className="ms-1 card-linked img-fluid"
+                      alt="CEO"
+                    />
+                  </a>
+                </p>
+                
+                <p className="user-role">CEO</p>
+                <p className="user-bio">
+                  <div>Steered MetaWise Marketing as CEO</div>
+                  <div>10+ years of industry experience</div>
+                  <div>PGDM - Marketing (LIBA)</div>
+                  <div>Keynote Speaker</div>
+                  <div>Data-driven decision-maker</div>
+                  <div>Location: Munich, Germany</div>
+                </p></div>
+
+</div>
+
+
+
+<div class='item row '>
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div className='owl-img'>
+<img src='https://imgur.com/Up8aDy6.png' className='img-fluid'/>
+</div>
+</div>
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center'>
+<p className="user-name">
+                  Livingston Cruz{" "}
+                  <a
+                    href="https://www.linkedin.com/in/cruz-livingston/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={cardlink}
+                      className="ms-1 card-linked img-fluid"
+                      alt="COO"
+                    />
+                  </a>
+                </p>
+                <p className="user-role">COO</p>
+                <p className="user-bio">
+                  <div>Led Enterprise level Digital Transformations</div>
+                  <div>12 years in SaaS product development & international rollouts</div>
+                  <div>PGDM - Marketing, LIBA</div>
+                  <div>Good Storyteller, People-Handler</div>
+                  <div>Location: Munich, Germany</div>
+                </p></div>
+
+
+</div>
+
+
+
+<div class='item row '>
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div className='owl-img'>
+<img src='https://imgur.com/3VvcAC3.png' className='img-fluid'/>
+</div></div>
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center'>
+<p className="user-name">
+                  Sam Prabhu{" "}
+                  <a
+                    href="https://www.linkedin.com/in/samprabhuj/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={cardlink}
+                      className="ms-1 card-linked img-fluid"
+                      alt="CPO"
+                    />
+                  </a>
+                </p>
+                <p className="user-role">CPO</p>
+                <p className="user-bio">
+                  <div>7-year SimScale Stalwart</div>
+                  <div>M.Sc., RWTH Aachen University</div>
+                  <div>Startup Ecosystem Expertise & Client Success/Growth Strategist</div>
+                  <div>Chess Aficionado</div>
+                  <div>Location: Munich, Germany</div>
+                </p></div>
+
+
+</div>
+
+
+
+<div class='item row '>
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div className='owl-img'>
+
+<img src='https://imgur.com/wYaaEe9.png' className='img-fluid'/>
+</div></div>
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center'>
+<p className="user-name">
+                  Shreyan Mehta{" "}
+                  <a
+                    href="https://www.linkedin.com/in/devsm/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={cardlink}
+                      className="ms-1 card-linked img-fluid"
+                      alt="CTO"
+                    />
+                  </a>
+                </p>
+                <p className="user-role">CTO</p>
+                <p className="user-bio">
+                  <div>10+ years of domain experience</div>
+                  <div>4+ years AI & GPT</div>
+                  <div>6+ years MERN stack</div>
+                  <div>5+ years as a Scrum Master</div>
+                  <div>Launched “SitesGPT” & “loveGPT"</div>
+                  <div>Location: Ahmedabad, India</div>
+                </p></div>
+
+
+</div>
+
+
+
+<div class='item row '>
+
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div className='owl-img'>
+<img src='https://imgur.com/bH8TD4B.png' className='img-fluid'/>
+</div>
+
+</div>
+<div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center'>
+<p className="user-name">
+                  Mithilesh Nanj
+                  <a
+                    href="https://www.linkedin.com/in/mithileshnanj/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={cardlink}
+                      className="ms-1 card-linked img-fluid"
+                      alt="Data"
+                    />
+                  </a>
+                </p>
+                <p className="user-role">Data Scientist</p>
+                <p className="user-bio">
+                  <div>7-year of Data Science exp</div>
+                  <div>M.S.Data Science</div>
+                  <div>Indiana University Bloomington</div>
+                  <div>Ex- Yahoo</div>
+                  <div>Location: Illinois, USA</div>
+                </p></div>
+
+
+</div>
+
+</OwlCarousel>
+</div>
+        
         </div>
       </div>
     </div>

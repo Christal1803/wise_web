@@ -4,6 +4,12 @@ body {
     background-image: url('../src/assets/bg.png');
     /* background-repeat: no-repeat; */
 }
+.smblock {
+  display: none;
+}
+.smnone {
+  display: block;
+}
 a.nav-link {
   color: #415f7b;
   font-size: 15px;
@@ -130,8 +136,11 @@ button.bannerbtn.btn {
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: #fff;
+  width: 100%;
 }
-
+button.navbar-toggler {
+  border: none !important;
+}
 .spl {
   color: var(--orange-gradient, #f6931f);
 }
@@ -175,7 +184,52 @@ button.btn.btn-primary.w-100 {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 850px) {
+  .px-lg-5.px-md-3.mx-4.home {
+    margin: 0 !important;
+  }
+  .col-sm-12.col-md-4.col-lg-4.col-xl-4.text-center.or1 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.main-banner {
+  padding-top: 0 !important;
+}
+.banner1 {
+ padding: 0.5rem;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+}
+.banner2 {
+  text-align: center;
+  padding: 0;
+  font-size: 22px;
+}
+.beta {
+  text-align: center;
+  margin-top: 40px;
+}
+.container-fluid.mt-5.pt-lg-5.mt-sm-3.spm {
+  margin-top: 7rem !important;
+}
+.section1-head 
+{
+  font-size: 23px;
+  margin-top: 1rem;
+  text-align: center;
+}
+.section1-img.text-center.mt-2 {
+  padding: 0;
+  margin: 3rem 0rem !important;
+}
+.card.text-center.border-0 {
+  background: transparent;
+  margin-top: 3rem;
+}
+
   body {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
@@ -216,8 +270,61 @@ button.btn.btn-primary.w-100 {
   }
   .row.main.mt-5 {
     padding: 10px;
+    margin: 0.1rem;
 }
+.smnone {
+  display: none;
+}
+.smcenter {
+  text-align: center;
+}
+.col-12.smcenter {
+  margin: 4rem 0rem;
+}
+.col-sm-12.col-md-12.col-lg-6.px-5.my-auto.p-s-3.or2 {
+  padding: 0.5 !important;
+  padding: 3rem 0.5rem !important;
+}
+p.main-text2.spl.main-text1 {
+  color: #f6931f;
+}
+p.card-text1.text-white {
+  margin-bottom: 0.5rem;
+}
+.main-text3 > ul {
+  font-size: 14px;
+}
+.col-sm-12.col-md-12.col-lg-6.or3 {
+  padding: 0.5 !important;
+  padding: 0rem 1rem !important;
+  margin-bottom: 1rem;
+}
+.col-sm-12.col-md-12.col-lg-6.px-5.my-auto.p-s-3.or4 {
+  padding: 3rem 1rem !important;
+}
+p.main-text2.spl {
+  color: #f6931f;
+}
+.col-sm-12.col-md-12.px-5.col-lg-6.my-auto.p-s-3.or6 {
+  padding: 3rem 1rem !important;
+}
+.col-sm-12.col-md-12.col-lg-6.or5 {
+  padding: 0rem 1rem !important;
+}
+.img-outerline > img {
+  width: 100%;
+  padding: 49px 13px;}
 
+
+  .col-sm-12.col-md-12.col-lg-6.or7 {
+    padding: 0rem 1rem !important;
+}
+.col-sm-12.col-md-12.col-lg-6.px-5.my-auto.p-s-3.or8 {
+  padding-top: 3rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 1.5rem !important;
+  padding-left: 1rem !important;
+}
   .or1 {
     order: 1;
   }
@@ -245,10 +352,76 @@ button.btn.btn-primary.w-100 {
   .scroll-container {
     padding: 0 !important;
   }
+
+  .market {
+    margin-top: 3rem;  }
   .row.m-3.footermain {
     /* margin: 0 !important; */
-    padding: 2rem;
+    padding: 1rem;
+    height: 250px;
+    background-size: 100% 146%;
   }
+  .sub > p.main-text2 {
+    padding: 0rem 1rem;
+    margin: 2rem 0rem;
+}
+  p.section1-head.mtext {
+    margin-top: 0;
+}
+.col-sm-12.col-md-6.col-lg-6.mt-3.footer-links {
+  text-align: center;
+}
+.footer-links > ul {
+  display: block;
+}
+
+.col-sm-12.col-md-3.col-lg-3.mt-3.footer-pad0 {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#navbarText {
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+}
+ul.dropdown-menu.show {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.rem solid;
+  border: none;
+}
+a.dropdown-item {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.owl-item.active.center {
+  transform: scale(1.1);
+  width: 100%;
+}
+.owl-img {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.smblock {
+  display: block;
+}
+.smnone {
+  display: none;
+}
+
+.col-sm-12.col-md-6.col-lg-5.sub  {
+  text-align: center;
+  padding: 0;
+}
+  
   .footermain > p.main-text2 {
   }
 }
@@ -392,7 +565,7 @@ img.img-fluid.banner-img-popup {
   padding: 10px;
 }
 p.disclaimer.text-center {
-  font-size: 14px;
+  font-size: 11px;
 }
 .close-btn {
   background: #fff;

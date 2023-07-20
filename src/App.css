@@ -113,9 +113,19 @@ p.user-bio {
 .owl-item.active {
   transform: scale(0.8) !important;
 }
+
+.first-carousel .owl-item.active.center {
+  width: 40vw !important ;
+}
+
+/* Second Carousel */
+.second-carousel .owl-item.active.center {
+  width: 100%;
+}
+
 .owl-item.active.center {
   transform: scale(1.1) !important;
-  width: 40vw !important;
+
   overflow: hidden;
 }
 .owl-item.active:not(.center) {
@@ -129,6 +139,7 @@ p.user-bio {
 .owl-item.active.center .my-content {
   display: block;
 }
+
 
 .search {
   display: inline-block;
