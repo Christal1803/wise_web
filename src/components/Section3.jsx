@@ -9,10 +9,10 @@ export default function Section3() {
           <div className="section1 text-center">
             <img
               src={market}
-              className="img-fluid"
+              className="img-fluid market"
               alt="Section 3 Logo"
             />
-            <p className="section1-head">Our path to market leadership</p>
+            <p className="section1-head mtext">Our path to market leadership</p>
             <p className="section1-text">Marketing within everyone’s reach</p>
           </div>
         </div>

@@ -195,7 +195,7 @@ export default function Section2() {
       </div>
 
       <div className="row main mt-5">
-        <div className="col-12">
+        <div className="col-12 smcenter">
           <p className="main-text1">
             <span className="text-white">the</span>Wise.ai{" "}
           </p>
@@ -216,7 +216,7 @@ export default function Section2() {
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 px-5 my-auto p-s-3 or2">
           <p className="card-text1 text-white">Conceptualize With</p>
-          <p className="main-text2 spl">Campaign Wizard</p>
+          <p className="main-text2 spl main-text1">Campaign Wizard</p>
           <p className="main-text3 mr-3">
             Craft impactful campaigns effortlessly, driven by AI insights and
             competitor analysis
@@ -228,8 +228,8 @@ export default function Section2() {
           </p>
         </div>
 
-        <div className="mt-5"></div>
-        <div className="mt-4"></div>
+        <div className="mt-5 smnone"></div>
+        <div className="mt-4 smnone"></div>
 
         <div className="col-sm-12 col-md-12 col-lg-6 px-5  my-auto p-s-3 or4">
           <p className="card-text1 text-white">Create & Launch With</p>
@@ -254,8 +254,8 @@ export default function Section2() {
           </div>
         </div>
         
-        <div className="mt-5"></div>
-        <div className="mt-4"></div>
+        <div className="mt-5 smnone"></div>
+        <div className="mt-4 smnone"></div>
 
         <div className="col-sm-12 col-md-12 col-lg-6  or5">
           <div className="img-outerline">
@@ -282,8 +282,8 @@ export default function Section2() {
           </p>
         </div>
 
-        <div className="mt-5"></div>
-        <div className="mt-4"></div>
+        <div className="mt-5 smnone"></div>
+        <div className="mt-4 smnone"></div>
 
         <div className="col-sm-12 col-md-12 col-lg-6 px-5 my-auto p-s-3 or8">
           <p className="card-text1 text-white">Evaluate & Optimize With</p>

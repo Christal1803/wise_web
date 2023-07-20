@@ -4,7 +4,7 @@ import spmbanner from "../assets/spmbanner.png";
 
 export default function Section1() {
   return (
-    <div className="container-fluid mt-5 pt-lg-5 mt-sm-3">
+    <div className="container-fluid mt-5 pt-lg-5 mt-sm-3 spm">
       <div className="row">
         <div className="section1 text-center spm">
           <img
