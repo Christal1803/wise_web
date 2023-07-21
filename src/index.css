@@ -185,14 +185,27 @@ button.btn.btn-primary.w-100 {
 }
 
 @media screen and (max-device-width: 850px) {
+  .conatctimg {
+    display: none;
+  }
+  img.img-fluid.dot-last {
+    display: none !important;
+  }
+  .owl-item.active.center > .row > .col-sm-12 > .owl-img {
+    border: 1px solid #fff !important;
+  }
   .px-lg-5.px-md-3.mx-4.home {
     margin: 0 !important;
   }
+  .container-fluid.main-banner.my-5 {
+    margin-top: 25px !important;
+    margin-bottom: 0px !important; 
+}
   .col-sm-12.col-md-4.col-lg-4.col-xl-4.text-center.or1 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 .main-banner {
   padding-top: 0 !important;
@@ -213,7 +226,7 @@ button.btn.btn-primary.w-100 {
   margin-top: 40px;
 }
 .container-fluid.mt-5.pt-lg-5.mt-sm-3.spm {
-  margin-top: 7rem !important;
+  margin-top: 3rem !important;
 }
 .section1-head 
 {
