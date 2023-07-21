@@ -185,6 +185,9 @@ button.btn.btn-primary.w-100 {
 }
 
 @media screen and (max-device-width: 850px) {
+  .conatctimg {
+    display: none;
+  }
   img.img-fluid.dot-last {
     display: none !important;
   }

@@ -30,7 +30,7 @@ export default function Contacts() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
           <img src={banner} className="conatctimg img-fluid" alt="Contact" />
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
