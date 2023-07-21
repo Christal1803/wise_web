@@ -52,7 +52,7 @@ export default function Section5() {
       </div>
 
       <div className="row m-3">
-        <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0">
+        <div className="col-sm-12 col-md-3 col-lg-3 mt-3 footer-pad0 smnone">
           <Link to="/">
             <img
               src="https://imgur.com/U61yxOl.png"
@@ -129,7 +129,19 @@ export default function Section5() {
                 <img src={insta} className="img-fluid" alt="Insta" />
               </a>
             </li>
+
+            
           </ul>
+        </div>
+
+        <div className="col-12 mt-3  text-center footer-pad0 smblock">
+          <Link to="/">
+            <img
+              src="https://imgur.com/U61yxOl.png"
+              className="img-fluid"
+              alt="Logo"
+            />
+          </Link>
         </div>
 
         <div className="col-12 copy-right text-center mt-4">

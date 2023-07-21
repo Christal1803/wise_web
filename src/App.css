@@ -235,3 +235,6 @@ p.user-bio {
 img.img-fluid.point-dot {
   display: initial;
 }
+.col-12.mt-3.d-block.text-center.footer-pad0.smblock {
+  display: none ;
+}
