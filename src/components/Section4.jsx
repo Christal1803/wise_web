@@ -251,7 +251,7 @@ export default function Section4() {
 
 
 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-<div className='owl-img'>
+<div className='owl-img sm'>
 <img src='https://imgur.com/FCuEGoA.png' className='img-fluid'/>
 </div></div>
 
@@ -287,7 +287,7 @@ export default function Section4() {
 
 <div class='item row '>
 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-<div className='owl-img'>
+                                  <div className='owl-img sm'>
 <img src='https://imgur.com/Up8aDy6.png' className='img-fluid'/>
 </div>
 </div>
@@ -323,7 +323,7 @@ export default function Section4() {
 
 <div class='item row '>
 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-<div className='owl-img'>
+                                  <div className='owl-img sm'>
 <img src='https://imgur.com/3VvcAC3.png' className='img-fluid'/>
 </div></div>
 
@@ -359,7 +359,7 @@ export default function Section4() {
 <div class='item row '>
 
 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-<div className='owl-img'>
+                                  <div className='owl-img sm'>
 
 <img src='https://imgur.com/wYaaEe9.png' className='img-fluid'/>
 </div></div>
@@ -396,7 +396,7 @@ export default function Section4() {
 <div class='item row '>
 
 <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-<div className='owl-img'>
+                                  <div className='owl-img sm'>
 <img src='https://imgur.com/bH8TD4B.png' className='img-fluid'/>
 </div>
 
