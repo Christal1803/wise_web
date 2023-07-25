@@ -31,6 +31,15 @@ export default function Pathtomarket() {
     },
     responsive: [
       {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      
+      {
         breakpoint: 840,
         settings: {
           slidesToShow: 2,
