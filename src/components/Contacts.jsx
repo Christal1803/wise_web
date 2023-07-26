@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import banner from "../assets/contactbanner.png";
-import axios from "axios";
 import postItem from "../services/ApiAccess";
 
 export default function Contacts() {
