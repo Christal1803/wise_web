@@ -222,9 +222,8 @@ p.user-bio {
 
 .dot-last {
   position: relative;
-  left: -164px;
-  top: 22px;
-  display: inline !important;
+    left: -174px;
+    display: inline !important;
 
 }
 
@@ -242,5 +241,41 @@ img.img-fluid.point-dot {
 
 .col-sm-12.col-md-6.col-lg-6.col-xl-6.my-auto.cont-form {
   margin: -92px;
+
+}
+
+
+
+
+
+@media screen and (max-device-width: 540px) {
+  img.conatctimg.img-fluid {
+    display: none;
+}
+.col-sm-12.col-md-6.col-lg-6.col-xl-6.my-auto.cont-form {
+  margin: auto;
+}
+.px-lg-5.mx-4 {
+  margin: 0 !important;
+}
+.col-12.mt-3.text-center.footer-pad0.smblock {
+  display: none;
+}
+.smblock {
+  display: block;
+}
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 930px)  {
+  .col-sm-12.col-md-6.col-lg-6.col-xl-6.mt-3.p-0 > img.conatctimg.img-fluid {
+    display: block ;
+    height: auto;
+}
+.col-sm-12.col-md-6.col-lg-6.col-xl-6.my-auto.cont-form {
+  margin: 0;
+}
+.col-12.mt-3.text-center.footer-pad0.smblock {
+  display: none;
+}
 
 }

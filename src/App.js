@@ -10,11 +10,9 @@ function App() {
     <Router>
          
     <Routes>
-
     <Route exact path="/" element={<Home />}/>
     <Route exact path="/contact" element={<Contact/>}/>
     <Route exact path="/marketing" element={<Popup/>}/>
-
     </Routes>
     </Router>
 
