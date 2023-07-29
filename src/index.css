@@ -184,10 +184,11 @@ button.btn.btn-primary.w-100 {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
+
+
     @media screen and (max-device-width: 850px) {
-        .conatctimg {
-            display: none;
-        }
+        
+   
 
         .owl-item.active.center > .row > .col-sm-12 > .owl-img.sm {
             border-radius: 335px;
@@ -228,19 +229,19 @@ button.btn.btn-primary.w-100 {
 
         .banner1 {
             padding: 0.5rem;
-            text-align: center;
+            text-align: left;
             margin: 0;
             padding: 0;
         }
 
         .banner2 {
-            text-align: center;
+            text-align: left;
             padding: 0;
             font-size: 22px;
         }
 
         .beta {
-            text-align: center;
+            text-align: left;
             margin-top: 40px;
         }
 
@@ -417,6 +418,9 @@ button.btn.btn-primary.w-100 {
         .scroll-container {
             padding: 0 !important;
         }
+        .scroll-ipad{
+            margin: 0px -48px !important;
+        }
 
         .market {
             margin-top: 3rem;
@@ -501,7 +505,7 @@ button.btn.btn-primary.w-100 {
         }
     }
 
-    @media screen and (min-device-width: 1024px) and (max-device-width: 1050px) {
+    @media screen and (min-device-width: 1025px) and (max-device-width: 1050px) {
         .card-inner.p-5 {
             padding: 0 !important;
         }
@@ -534,7 +538,7 @@ button.btn.btn-primary.w-100 {
             margin-top: 3rem;
         }
         .scroll-container {
-             padding: 0px;
+             padding: 0px !important;
         }
         .search {
             margin-top: 1rem;
@@ -543,6 +547,98 @@ button.btn.btn-primary.w-100 {
             width: 100% !important;
         }
       
+    }
+    @media screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
+        
+        .scroll-container{
+            padding: 0px !important;
+        }
+        .main-text2 {
+            color: #fff;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+    }
+
+    @media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+        
+        .dot-last {
+            position: relative;
+            left: -112px !important;
+            top: -25px !important;
+            display: inline !important;
+        }
+    }
+    @media screen and (min-device-width: 280px) and (max-device-width: 280px) {
+        
+        .dot-last {
+            position: relative;
+            left: -108px !important;
+            top: -23px !important;
+            display: inline !important;
+        }
+        .progressbar.scroll-ipad {
+            display: none;
+        }
+        .sub > p.main-text2 {
+            padding: 0px !important;
+        }
+        .main-text2 {
+            font-size: 16px;
+        }
+        .search button[type="submit"] {
+            background-color: #cb3d00;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            padding: 8px 10px;
+            border-radius: 11px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 2px !important;
+    right: 2px !important;
+            transition: 0.9s ease;
+            font-size: 10px;
+        }
+        .search input[type="text"] {
+            width: 100%;
+            padding: 5px 8px 5px 8px;
+            border-radius: 9px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: #2e3136;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            font-size: 9px;
+        }
+        .sub{
+            padding: 0px !important;
+        }
+        .search {
+            display: inline-block;
+            position: relative;
+            width: 100% !important;
+        }
+        .banner2{
+            text-align: center;
+        }
+        .banner1{
+            text-align: center;
+        }
+        .beta{
+            text-align: center;
+        }
+        .col-sm-12.col-md-6.col-lg-6.col-xl-6.my-auto.cont-form {
+            margin: 0px !important; 
+        }
+    }
+
+    @media screen and (min-device-width: 1280px) and (max-device-width: 1280px) {
+        
+        .scroll-container{
+            padding: 0px !important;
+        }
     }
 
     @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -566,7 +662,7 @@ button.btn.btn-primary.w-100 {
         }
 
         .or1 {
-            order: 1;
+            order: 2;
         }
 
         .or2 {
@@ -598,13 +694,18 @@ button.btn.btn-primary.w-100 {
         }
 
         .scroll-container {
-            padding: 0px !important;
+            padding: 0px 20px !important;
+        }
+        .scroll-ipad{
+            padding: -7px 0px 0px 40px !important;
         }
 
         .row.m-3.footermain {
             background-size: 100% 100%;
         }
     }
+
+   
 
     .point-dot {
         float: right;

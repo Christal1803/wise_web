@@ -45,6 +45,9 @@ export default function Section4() {
                 768: {
                   items: 1, // Number of items to display on screens equal to or larger than 768px
                 },
+                912: {
+                  items: 1, // Number of items to display on screens equal to or larger than 768px
+                },
                 992: {
                   items: 5, // Number of items to display on screens equal to or larger than 992px
                 },

@@ -356,12 +356,12 @@ export default function Pathtomarket() {
       </div>
 
       <div className="scroll-container">
-        <div className="scroll-container">
+        <div className="scroll-container ">
           <div className="scroll-box scroll_mt ">
             <div className="scroll-box-1">
               <div className="scroll-rl"></div>
               <div>
-                <div className="progressbar">
+                <div className="progressbar scroll-ipad">
                   <div
                     className="progressindicator"
                     style={{ width: `${scrollProgress2}%` }}
