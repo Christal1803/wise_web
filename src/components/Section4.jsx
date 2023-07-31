@@ -274,20 +274,21 @@ export default function Section4() {
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                   <p className="user-name">
                     Dhivya Daniel (DD){" "}
-                    <a
+                    
+                  </p>
+
+                  <p className="user-role">CEO</p>
+                  <a
                       href="https://www.linkedin.com/in/dhivyadaniel/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={cardlink}
-                        className="ms-1 card-linked img-fluid"
+                        className="mb card-linked img-fluid"
                         alt="CEO"
                       />
                     </a>
-                  </p>
-
-                  <p className="user-role">CEO</p>
                   <p className="user-bio">
                     <div>Steered MetaWise Marketing as CEO</div>
                     <div>10+ years of industry experience</div>
@@ -313,19 +314,22 @@ export default function Section4() {
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                   <p className="user-name">
                     Livingston Cruz{" "}
-                    <a
+                    
+                  </p>
+                  <p className="user-role">COO</p>
+
+                  <a
                       href="https://www.linkedin.com/in/cruz-livingston/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={cardlink}
-                        className="ms-1 card-linked img-fluid"
+                        className="mb card-linked img-fluid"
                         alt="COO"
                       />
                     </a>
-                  </p>
-                  <p className="user-role">COO</p>
+
                   <p className="user-bio">
                     <div>Led Enterprise level Digital Transformations</div>
                     <div>
@@ -353,19 +357,20 @@ export default function Section4() {
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                   <p className="user-name">
                     Sam Prabhu{" "}
-                    <a
+                    
+                  </p>
+                  <p className="user-role">CPO</p>
+                  <a
                       href="https://www.linkedin.com/in/samprabhuj/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={cardlink}
-                        className="ms-1 card-linked img-fluid"
+                        className="mb card-linked img-fluid"
                         alt="CPO"
                       />
                     </a>
-                  </p>
-                  <p className="user-role">CPO</p>
                   <p className="user-bio">
                     <div>7-year SimScale Stalwart</div>
                     <div>M.Sc., RWTH Aachen University</div>
@@ -392,19 +397,20 @@ export default function Section4() {
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                   <p className="user-name">
                     Shreyan Mehta{" "}
-                    <a
+                   
+                  </p>
+                  <p className="user-role">CTO</p>
+                  <a
                       href="https://www.linkedin.com/in/devsm/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={cardlink}
-                        className="ms-1 card-linked img-fluid"
+                        className="mb card-linked img-fluid"
                         alt="CTO"
                       />
                     </a>
-                  </p>
-                  <p className="user-role">CTO</p>
                   <p className="user-bio">
                     <div>10+ years of domain experience</div>
                     <div>4+ years AI & GPT</div>
@@ -429,19 +435,21 @@ export default function Section4() {
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                   <p className="user-name">
                     Mithilesh Nanj
-                    <a
+                    
+                  </p>
+                  <p className="user-role">Data Scientist</p>
+
+                  <a
                       href="https://www.linkedin.com/in/mithileshnanj/"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src={cardlink}
-                        className="ms-1 card-linked img-fluid"
+                        className="mb card-linked img-fluid"
                         alt="Data"
                       />
                     </a>
-                  </p>
-                  <p className="user-role">Data Scientist</p>
                   <p className="user-bio">
                     <div>7-year of Data Science exp</div>
                     <div>M.S.Data Science</div>
