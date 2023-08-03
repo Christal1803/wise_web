@@ -264,6 +264,12 @@ img.img-fluid.point-dot {
 .smblock {
   display: block;
 }
+.banner2 {
+  text-align: center ;
+}
+.beta {
+  text-align: center;
+}
 }
 
 @media screen and (min-device-width : 768px) and (max-device-width : 930px)  {
@@ -278,4 +284,12 @@ img.img-fluid.point-dot {
   display: none;
 }
 
+}
+
+.brand-logo {
+    width: 159px;
+}
+
+img.img-fluid.me-2.twitter {
+    height: 22px;
 }
