@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import twitter from "../assets/twitter.png";
+import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.png";
 import facebook from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import yt from "../assets/youtube.svg";
 import mail from "../assets/gmail.svg";
+import logo from "../assets/logo.png";
 import threads from "../assets/threads.svg";
 
 export default function Nav() {
@@ -18,8 +19,8 @@ export default function Nav() {
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
           <img
-            src="https://imgur.com/U61yxOl.png"
-            className="img-fluid"
+                      src={logo}
+            className="img-fluid brand-logo"
             alt="Logo"
           />
         </Link>
@@ -73,7 +74,7 @@ export default function Nav() {
                   >
                     <img
                       src={twitter}
-                      className="img-fluid me-2"
+                      className="img-fluid me-2 twitter"
                       alt="Twitter"
                     />
                     Twitter

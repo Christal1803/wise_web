@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import twitter from "../assets/twitter.png";
+import twitter from "../assets/twitter.svg";
 import facebook from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
