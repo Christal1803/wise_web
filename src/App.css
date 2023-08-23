@@ -270,6 +270,9 @@ img.img-fluid.point-dot {
 .beta {
   text-align: center;
 }
+.w-sm-100 {
+  width: 100% !important;
+}
 }
 
 @media screen and (min-device-width : 768px) and (max-device-width : 930px)  {
@@ -283,7 +286,9 @@ img.img-fluid.point-dot {
 .col-12.mt-3.text-center.footer-pad0.smblock {
   display: none;
 }
-
+.w-lg-50 {
+  width: 50% !important;
+}
 }
 
 .brand-logo {
@@ -292,4 +297,11 @@ img.img-fluid.point-dot {
 
 img.img-fluid.me-2.twitter {
     height: 22px;
+}
+
+.subcription-order {
+  order: 2;
+}
+.form-control.w-sm-100.w-lg-50.mx-auto {
+  width: 50% ;
 }
