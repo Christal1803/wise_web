@@ -273,6 +273,23 @@ img.img-fluid.point-dot {
 .w-sm-100 {
   width: 100% !important;
 }
+.dd-sm-none {
+  display: none;
+  margin-top: 10rem;
+}
+.row.mt-sm-4 {
+  margin-top: 8rem;
+}
+.sm-text-center {
+  text-align: center;
+}
+.beta.d-flex.d-sm-block {
+  display: block !important;
+}
+.form-control.w-sm-100.w-lg-50.w-50 {
+  width: 100% !important;
+  margin-bottom: 1.5rem;
+}
 }
 
 @media screen and (min-device-width : 768px) and (max-device-width : 930px)  {
@@ -289,6 +306,15 @@ img.img-fluid.point-dot {
 .w-lg-50 {
   width: 50% !important;
 }
+.px-lg-5.px-md-3.mx-4.sm-joinbeta.home {
+  margin-top: 8rem !important;
+}
+.w-lg-100 {
+  width: 100%!important;
+}
+.beta.d-flex.d-sm-block {
+  display: flex !important;
+}
 }
 
 .brand-logo {
@@ -304,4 +330,14 @@ img.img-fluid.me-2.twitter {
 }
 .form-control.w-sm-100.w-lg-50.mx-auto {
   width: 50% ;
+}
+p.disclaimer-join.py-2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  color: rgba(90, 85, 108, 1);
+
 }
