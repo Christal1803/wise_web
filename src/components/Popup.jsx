@@ -28,7 +28,7 @@ export default function Popup() {
   <div className="container-fluid main-banner my-5" style={{ paddingTop: "0rem" }}>
     <div className="row mt-sm-4">
       <div className="col-sm-12 col-md-7 col-lg-8 col-xl-8 mt-auto mb-auto or2">
-        <h1 className="banner1 py-2 sm-text-center">Join theWise Beta</h1>
+        <h1 className="banner1 py-2 sm-text-center">Join the<span className="spl">Wise</span> Beta</h1>
         <p className="banner2 py-2">
         Discover smarter marketing. Experience effortless campaigns. <br/>
         <span className="semi-bold">Be the first to try theWiseAI</span>

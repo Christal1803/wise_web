@@ -84,20 +84,39 @@ export default function Banner() {
           <div className="row">
             <div className="col-7 px-4 my-auto">
               <h5 className="banner1-popup py-2 m-0 p-0">
-                Marketing Simplified
+              Join the<span className="spl">Wise</span> Beta
               </h5>
               <p className="banner2-popup py-2 m-0">
-                Ideate, Execute, Promote, Analyze - All made possible by
-                <br /> One Powerful AI
+              Discover smarter marketing. Experience effortless campaigns. 
+                <br />Be the first to try theWiseAI
               </p>
+
+              <div className="d-flex">
+              <input
+                type="email"
+                class="form-control modal-email"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                value={email}
+                placeholder="enter email "
+                onChange={(e) => {formOnChange(e)}}
+              />
               <button
                 className="bannerbtn-popup btn mt-2"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
               >
-                Join Beta
-                <img src={arrow} className="img-fluid btn-arrow-popup ms-2" alt="Popup arrow"/>
+                Submit
+                
               </button>
+              </div>
+
+              <p className="banner2-popup py-2 m-0">
+              We promise relevant updates, zero spam. Your insight shapes our evolution. 
+              <br/>By signing up, you agree to our Privacy Policy.
+               
+              </p>
+              
             </div>
             <div className="col-5 my-3 text-center">
               <img
@@ -109,7 +128,7 @@ export default function Banner() {
           </div>
         </div>
 
-        <div className="col-12 px-4 mt-4">
+        {/* <div className="col-12 px-4 mt-4">
           <h5 className="popup-heading">Get Ahead with theWise.ai Beta</h5>
 
           <form>
@@ -117,14 +136,7 @@ export default function Banner() {
               <label for="exampleInputEmail1" class="form-label">
                 Email<sup>*</sup>
               </label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                value={email}
-                onChange={(e) => {formOnChange(e)}}
-              />
+              
             </div>
           </form>
         </div>
@@ -136,7 +148,7 @@ export default function Banner() {
             Join for exclusive Beta access. We promise relevent updates, zero
             spam. Your insight shapes our evolution{" "}
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
       </div>
