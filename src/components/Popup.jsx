@@ -24,7 +24,8 @@ export default function Popup() {
   };
 
   return (
-    <div className="px-lg-5 px-md-3 mx-4 sm-joinbeta home ">
+    <div className="container-fluid">
+   <div className="px-lg-5 px-md-3 mx-4 sm-joinbeta home contain-center">
   <div className="container-fluid main-banner my-5" style={{ paddingTop: "0rem" }}>
     <div className="row mt-sm-4">
       <div className="col-sm-12 col-md-7 col-lg-8 col-xl-8 mt-auto mb-auto or2">
@@ -51,7 +52,7 @@ export default function Popup() {
        
         </div>
         <p className="disclaimer-join py-2">
-        We promise relevant updates, zero spam. Your insight shapes our evolution. <br/>By signing up, you agree to our Privacy Policy.
+        We promise relevant updates, zero spam. Your insight shapes our evolution. <br/>By signing up, you agree to our <span className="text-decoration-underline">Privacy Policy</span>.
           
         </p>
 
@@ -107,6 +108,8 @@ export default function Popup() {
     
   </div>
     </div>
+    </div>
+ 
   
   );
 }

@@ -353,3 +353,11 @@ p.disclaimer-join.py-2 {
   font-style: normal;
 
 }
+
+.contain-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
