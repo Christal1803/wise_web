@@ -341,3 +341,23 @@ p.disclaimer-join.py-2 {
   color: rgba(90, 85, 108, 1);
 
 }
+.modal-email {
+  
+  padding: 3.048px 12.095px !important;
+  font-size: 8px;
+  line-height: 20.905px;
+  height: 29px;
+  margin-top: 0.5rem!important;
+  margin-right: 8px;
+  font-size: 8px !important;
+  font-style: normal;
+
+}
+
+.contain-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
