@@ -1,6 +1,5 @@
 import React from "react";
 import spm from "../assets/spm1.png";
-import spmbanner from "../assets/spmbanner.png";
 import spmbanner1 from "../assets/spmbanner1.png";
 
 export default function Section1() {
