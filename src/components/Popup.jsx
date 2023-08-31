@@ -28,10 +28,10 @@ export default function Popup() {
       <div className="container-fluid">
         <div className="px-lg-5 px-md-3 mx-4 sm-joinbeta home contain-center">
           <div
-            className="container-fluid main-banner my-5"
+            className="container-fluid main-banner"
             style={{ paddingTop: "0rem" }}
           >
-            <div className="row mt-sm-4">
+            <div className="row">
               <div className="col-sm-12 col-md-7 col-lg-8 col-xl-8 mt-auto mb-auto or2">
                 <h1 className="banner1 py-2 sm-text-center">
                   Join the<span className="spl">Wise</span> Beta
