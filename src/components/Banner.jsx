@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import arrow from "../assets/arrow.png";
 import banner from "../assets/banner.png";
 import postItem from "../services/ApiAccess";
-import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
+import privacyPolicyDoc from "../assets/Privacy_Policy_Beta.pdf";
 
 export default function Banner() {
   const [email, setEmail] = useState("");

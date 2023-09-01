@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import banner from "../assets/banner.png";
 import postItem from "../services/ApiAccess";
-import privacyPolicyDoc from "../assets/Privacy_Policy.pdf";
+import privacyPolicyDoc from "../assets/Privacy_Policy_Beta.pdf";
 import { ToastContainer } from "react-toastify";
 
 export default function Popup() {
