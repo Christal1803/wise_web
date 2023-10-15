@@ -105,11 +105,11 @@ export default function Section4() {
                       <img
                         src={cardlink}
                         className="ms-1 card-linked img-fluid"
-                        alt="COO"
+                        alt="CPO"
                       />
                     </a>
                   </p>
-                  <p className="user-role">COO</p>
+                  <p className="user-role">CPO</p>
                   <p className="user-bio">
                     <div>Led Enterprise level Digital Transformations</div>
                     <div>
@@ -140,11 +140,11 @@ export default function Section4() {
                       <img
                         src={cardlink}
                         className="ms-1 card-linked img-fluid"
-                        alt="CPO"
+                        alt="Machine Learning Expert"
                       />
                     </a>
                   </p>
-                  <p className="user-role">CPO</p>
+                  <p className="user-role">Machine Learning Expert</p>
                   <p className="user-bio">
                     <div>7-year SimScale Stalwart</div>
                     <div>M.Sc., RWTH Aachen University</div>
@@ -158,7 +158,7 @@ export default function Section4() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
                   <div className="owl-img">
-                    <img src={SamPrabhu} className="img-fluid" alt="CPO" />
+                    <img src={SamPrabhu} className="img-fluid" alt="Machine Learning Expert" />
                   </div>
                 </div>
               </div>
@@ -316,7 +316,7 @@ export default function Section4() {
                     Livingston Cruz{" "}
                     
                   </p>
-                  <p className="user-role">COO</p>
+                  <p className="user-role">CPO</p>
 
                   <a
                       href="https://www.linkedin.com/in/cruz-livingston/"
@@ -326,7 +326,7 @@ export default function Section4() {
                       <img
                         src={cardlink}
                         className="mb card-linked img-fluid"
-                        alt="COO"
+                        alt="CPO"
                       />
                     </a>
 
@@ -359,7 +359,7 @@ export default function Section4() {
                     Sam Prabhu{" "}
                     
                   </p>
-                  <p className="user-role">CPO</p>
+                  <p className="user-role">Machine Learning Expert</p>
                   <a
                       href="https://www.linkedin.com/in/samprabhuj/"
                       target="_blank"
@@ -368,7 +368,7 @@ export default function Section4() {
                       <img
                         src={cardlink}
                         className="mb card-linked img-fluid"
-                        alt="CPO"
+                        alt="Machine Learning Expert"
                       />
                     </a>
                   <p className="user-bio">
