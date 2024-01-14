@@ -13,6 +13,7 @@ export default function Nav() {
   const redirectToNoLink = () => {
     return "javascript:void(0)";
   };
+  const wizardLink = process.env.WIZARD_LINK;
 
   return (
     <nav class="navbar navbar-expand-lg" style={{ marginTop: "2rem" }}>
@@ -52,6 +53,41 @@ export default function Nav() {
                 Blog
               </a>
             </li> */}
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href={redirectToNoLink}
+                id="navbarDropdownProducts"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wizard.thewise.ai/campaign"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Campaign Wizard
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wizard.thewise.ai/social"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Content Generator
+                  </a>
+                </li>
+              </ul>
+            </li>
 
             <li class="nav-item dropdown">
               <a
